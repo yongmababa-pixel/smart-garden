@@ -66,6 +66,8 @@ td{padding:7px 12px;border-bottom:1px solid var(--brd)}tr:last-child td{border-b
 <a href="#" data-p="market" onclick="nv(this,'market')"><span class="ic">📈</span>市场洞察</a>
 <a href="#" data-p="compet" onclick="nv(this,'compet')"><span class="ic">🏢</span>竞品分层</a>
 <a href="#" data-p="roi" onclick="nv(this,'roi')"><span class="ic">💰</span>ROI对比</a>
+<div class="nav-sep">数据管理</div>
+<a href="#" data-p="datacenter" onclick="nv(this,'datacenter')"><span class="ic">🗄️</span>数据中心</a>
 </nav>
 </div>
 <div class="main">
@@ -198,6 +200,76 @@ ${[{n:'深圳湾公园',p:85},{n:'莲花山公园',p:60},{n:'人才公园',p:40}
 </div>
 <p style="font-size:11px;color:var(--gry);margin-top:8px"><strong>传统模式（街道社区）：</strong>2名绿化巡检员×年薪12万=年24万人力。全年人工巡检覆盖约200公顷，发现病虫害靠经验，平均响应3-5天。<br>
 <strong>天穹AI方案（同街道）：</strong>1架多旋翼无人机+云端AI+1名飞手（兼职工单派发），年成本约15万。全年覆盖500+公顷，AI实时识别，自动派单响应≤48小时。年节约人力成本40%以上，巡检覆盖提升150%。</p></div></div>
+
+<!-- ====== DATA CENTER (NEW) ====== -->
+<div class="page" id="p-datacenter">
+<div class="story"><strong>📖 用户：系统管理员 & 数据分析师</strong> — 管理12类基础数据资产，了解每类数据的来源渠道、更新频率及其在业务报告中的应用价值。数据驱动决策。<div class="steps"><span>数据总览</span><span>来源追踪</span><span>报告关联</span><span>质量监控</span></div></div>
+<div class="stats"><div class="stat"><div class="n" style="color:var(--blue)">12</div><div class="l">数据类型</div></div><div class="stat"><div class="n" style="color:var(--grn)">1,732</div><div class="l">总记录数</div></div><div class="stat"><div class="n" style="color:var(--tel)">8</div><div class="l">数据来源渠道</div></div><div class="stat"><div class="n" style="color:var(--amb)">492KB</div><div class="l">数据规模</div></div></div>
+
+<div class="tabs"><div class="tab at" onclick="st(this,'dc-inventory')">📋 数据资产清单</div><div class="tab" onclick="st(this,'dc-trees')">🌳 苗木(1000)</div><div class="tab" onclick="st(this,'dc-pests')">🪲 病虫害(100)</div><div class="tab" onclick="st(this,'dc-orders')">📋 工单(100)</div><div class="tab" onclick="st(this,'dc-drone')">📸 航拍(200)</div><div class="tab" onclick="st(this,'dc-flow')">🔄 数据流向</div></div>
+
+<div class="tbdy on" id="dc-inventory">
+<h3>📋 12类基础数据资产清单</h3>
+<table><tr><th>#</th><th>数据类型</th><th>记录数</th><th>来源渠道</th><th>更新频率</th><th>关联业务报告</th><th>对应招标需求</th></tr>
+<tr><td>1</td><td>🌿 绿地台账</td><td>5公园</td><td>市城管局绿化处年度统计</td><td>年度</td><td>绿化长势监测报表、绿地率考核、碳排放核算</td><td>市城管局遥感监测(20.6万)</td></tr>
+<tr><td>2</td><td>🌳 苗木资产</td><td>1,000棵</td><td>无人机GIS标注+人工补录</td><td>季度</td><td>植被一张图GIS、病虫害趋势、名木古树、碳汇</td><td>香蜜湖(1500万)+大运(101万㎡)</td></tr>
+<tr><td>3</td><td>🧪 土壤传感器</td><td>20点×48台</td><td>园区IoT传感器(MQTT)</td><td>30分钟</td><td>土壤健康评估、精准灌溉建议、数字孪生</td><td>香蜜湖"物联网传感器"</td></tr>
+<tr><td>4</td><td>🌤️ 气象数据</td><td>6月×小时</td><td>深圳气象局API+园区气象站</td><td>每小时</td><td>台风预警响应、高温干旱预警、灌溉计划</td><td>大运"气象数据融合"</td></tr>
+<tr><td>5</td><td>💧 灌溉系统</td><td>3公园×日</td><td>智能灌溉控制器(IoT)</td><td>实时+日汇总</td><td>水资源消耗报告、节水效益分析</td><td>香蜜湖"灌溉系统"</td></tr>
+<tr><td>6</td><td>🪲 病虫害记录</td><td>100条</td><td>AI识别自动记录+人工确认</td><td>实时</td><td>病虫害趋势月报、AI准确率评估、药剂效果</td><td>香蜜湖+盐田"病虫害识别"</td></tr>
+<tr><td>7</td><td>📋 养护工单</td><td>100条</td><td>AI自动生成+人工创建</td><td>实时</td><td>养护成本统计、工人绩效、响应时效</td><td>香蜜湖+大运"工单派发"</td></tr>
+<tr><td>8</td><td>🔍 巡检记录</td><td>80条</td><td>系统自动记录</td><td>每次巡检后</td><td>巡检覆盖率报告、问题发现率</td><td>盐田鹏湾(19.5万)</td></tr>
+<tr><td>9</td><td>📸 航拍图片</td><td>200张</td><td>无人机自动上传</td><td>每次飞行后</td><td>AI识别输入、多期对比、绿地变化</td><td>市城管局遥感+龙华一网统飞</td></tr>
+<tr><td>10</td><td>🏗️ 设施资产</td><td>120件</td><td>GIS标注+人工巡检</td><td>季度</td><td>设施健康报告、维修预算、安全隐患排查</td><td>香蜜湖"设施破损识别"</td></tr>
+<tr><td>11</td><td>🌊 水体监测</td><td>2湖区</td><td>IoT水质传感器+人工取样</td><td>2小时+周</td><td>水环境质量报告、藻类预警</td><td>香蜜湖"水体污染识别"</td></tr>
+<tr><td>12</td><td>👥 游客服务</td><td>2公园×日</td><td>闸机计数+小程序</td><td>实时+日汇总</td><td>公园承载量评估、满意度调查</td><td>香蜜湖+大运"公众智慧游园"</td></tr></table></div>
+
+<div class="tbdy" id="dc-trees"><h3>🌳 苗木资产抽样（共1,000棵）</h3><table><tr><th>ID</th><th>树种</th><th>公园</th><th>胸径(cm)</th><th>健康</th><th>最近巡检</th><th>古树</th><th>病虫害史</th></tr>
+${(()=>{const sps=["香樟","细叶榕","凤凰木","黄花风铃木","大叶紫薇","美丽异木棉","秋枫","宫粉紫荆","蒲葵","大王椰子"];const ps=["深圳湾公园","莲花山公园","人才公园","香蜜湖公园","大运公园"];let h='';for(let i=0;i<15;i++){const sp=sps[i%10];const p=ps[i%5];const hs=Math.floor(Math.random()*60+40);const di=Math.floor(Math.random()*180);h+=`<tr><td>TREE${String(i).padStart(4,'0')}</td><td>${sp}</td><td>${p}</td><td>${(Math.random()*85+5).toFixed(1)}</td><td><span class="tag ${hs>=70?'tg':hs>=50?'ta':'tr'}">${hs}分</span></td><td>2026-${String(6-Math.floor(di/30)).padStart(2,'0')}-${String(Math.floor(Math.random()*28)+1).padStart(2,'0')}</td><td>${i<3?'<span class="tag tr">是</span>':'否'}</td><td>${Math.random()<0.3?`<span class="tag ta">${['榕树蓟马','樟巢螟','蚜虫'][Math.floor(Math.random()*3)]}</span>`:'无'}</td></tr>`}return h})()}</table></div>
+
+<div class="tbdy" id="dc-pests"><h3>🪲 病虫害记录（共100条，展示最新20条）</h3><table><tr><th>ID</th><th>类型</th><th>公园</th><th>发现日期</th><th>严重程度</th><th>影响数量</th><th>处置方式</th><th>状态</th></tr>
+${(()=>{const pts=["榕树蓟马","樟巢螟","白粉病","天牛幼虫","椰心叶甲","红火蚁","蚜虫","介壳虫","炭疽病","锈病"];const ps=["深圳湾公园","莲花山公园","人才公园","香蜜湖公园","大运公园"];let h='';for(let i=0;i<20;i++){const pt=pts[i%10];const sv=Math.random()<0.3?'重度':Math.random()<0.5?'中度':'轻度';const st=sv==='重度'?'处置中':Math.random()<0.7?'已处置':'待处置';h+=`<tr><td>P${String(i).padStart(4,'0')}</td><td>${pt}</td><td>${ps[Math.floor(Math.random()*5)]}</td><td>2026-0${Math.floor(Math.random()*6)+1}-${String(Math.floor(Math.random()*28)+1).padStart(2,'0')}</td><td><span class="tag ${sv==='重度'?'tr':sv==='中度'?'ta':'tb'}">${sv}</span></td><td>${sv==='重度'?Math.floor(Math.random()*30+20):Math.floor(Math.random()*20+1)}株</td><td>${['吡虫啉','阿维菌素','三唑酮'][Math.floor(Math.random()*3)]}${Math.floor(Math.random()*1500+500)}倍</td><td><span class="tag ${st==='已处置'?'tg':st==='处置中'?'ta':'tb'}">${st}</span></td></tr>`}return h})()}</table></div>
+
+<div class="tbdy" id="dc-orders"><h3>📋 养护工单（共100条，展示最新15条）</h3><table><tr><th>工单号</th><th>类型</th><th>公园</th><th>创建日期</th><th>优先级</th><th>工人</th><th>费用(元)</th><th>状态</th><th>满意度</th></tr>
+${(()=>{const ts=["病虫害处置","枯木清理","修剪","补种","灌溉维修","设施维修","湖面清洁","施肥"];const ps=["深圳湾公园","莲花山公园","人才公园","香蜜湖公园"];const ws=["陈师傅","刘师傅","张师傅","王师傅"];let h='';for(let i=0;i<15;i++){const ty=ts[i%8];const st=Math.random()<0.5?'已完成':Math.random()<0.5?'处置中':'待派发';h+=`<tr><td>WO-${String(i).padStart(4,'0')}</td><td>${ty}</td><td>${ps[i%4]}</td><td>2026-0${Math.floor(Math.random()*6)+1}-${String(Math.floor(Math.random()*28)+1).padStart(2,'0')}</td><td><span class="tag ${i<5?'tr':i<9?'ta':'tb'}">${i<5?'高':i<9?'中':'低'}</span></td><td>${ws[i%4]}</td><td>¥${Math.floor(Math.random()*2950+50)}</td><td><span class="tag ${st==='已完成'?'tg':st==='处置中'?'ta':'tb'}">${st}</span></td><td>${st==='已完成'?Math.floor(Math.random()*3+3)+'★':'-'}</td></tr>`}return h})()}</table></div>
+
+<div class="tbdy" id="dc-drone"><h3>📸 航拍图片元数据（共200张，展示最新15张）</h3><table><tr><th>图片ID</th><th>无人机</th><th>时间</th><th>高度(m)</th><th>AI已分析</th><th>AI发现</th></tr>
+${(()=>{let h='';for(let i=0;i<15;i++){const analyzed=Math.random()<0.8;const f=analyzed?['枯黄3处','正常','虫害1处','湖面垃圾2处','黄土裸露1处','无异常'][Math.floor(Math.random()*6)]:'-';h+=`<tr><td>IMG${String(i).padStart(5,'0')}</td><td>${i<8?'DJI-M300':'DJI-Mavic3'}</td><td>2026-06-${String(Math.floor(Math.random()*20)+1).padStart(2,'0')} ${String(Math.floor(Math.random()*14)+6).padStart(2,'0')}:00</td><td>${Math.floor(Math.random()*60+60)}</td><td>${analyzed?'<span class="tag tg">是</span>':'<span class="tag tr">否</span>'}</td><td><span class="tag ${f.includes('异常')||f.includes('处')&&!f.includes('正常')?'ta':f==='正常'?'tg':'tb'}">${f}</span></td></tr>`}return h})()}</table></div>
+
+<div class="tbdy" id="dc-flow">
+<h3>🔄 数据流向 — 从数据采集到业务价值</h3>
+<div class="grid2">
+<div class="card"><h3>📥 数据采集层（8个来源渠道）</h3>
+<p style="font-size:10px;color:var(--gry);line-height:2">
+① <strong>IoT传感器(MQTT)</strong> → 土壤/灌溉/水质<br>
+② <strong>无人机自动上传</strong> → 航拍图片+GPS元数据<br>
+③ <strong>深圳气象局API</strong> → 天气/台风预警<br>
+④ <strong>市城管局年度统计</strong> → 绿地台账<br>
+⑤ <strong>GIS标注+人工补录</strong> → 苗木资产+设施<br>
+⑥ <strong>AI识别自动记录</strong> → 病虫害+异常事件<br>
+⑦ <strong>小程序+Web操作</strong> → 工单+巡检记录<br>
+⑧ <strong>闸机+小程序扫码</strong> → 游客数据</p></div>
+<div class="card"><h3>📊 业务报告层（12份报告）</h3>
+<p style="font-size:10px;color:var(--gry);line-height:2">
+① 年度绿化长势监测报表 ← 绿地台账+航拍<br>
+② 病虫害趋势月报 ← 病虫害记录+气象<br>
+③ 植被一张图GIS ← 苗木资产+航拍<br>
+④ 养护成本统计 ← 工单记录<br>
+⑤ 巡检覆盖率报告 ← 巡检记录+航拍<br>
+⑥ 水资源消耗报告 ← 灌溉系统<br>
+⑦ 土壤健康评估 ← 土壤传感器<br>
+⑧ 设施健康报告 ← 设施资产+AI识别<br>
+⑨ 水环境质量报告 ← 水体监测<br>
+⑩ 公园承载量评估 ← 游客数据<br>
+⑪ AI模型准确率评估 ← 病虫害记录+人工标注<br>
+⑫ 碳汇计算报告 ← 苗木资产+绿地台账</p></div>
+</div>
+<div class="card" style="margin-top:12px"><h3>🔗 数据驱动业务流程闭环</h3>
+<p style="font-size:11px;line-height:2">
+<strong>数据采集</strong>（IoT传感器+无人机+气象API）→ <strong>AI分析</strong>（病虫害识别+异常检测+趋势预测）→ <strong>工单生成</strong>（自动派发+处置建议）→ <strong>人工处置</strong>（养护工人现场作业+反馈）→ <strong>数据回流</strong>（处置结果更新数据库+修正AI模型）→ <strong>报告输出</strong>（生成12份业务报告提交园林局）。<br>
+<strong style="color:var(--green)">关键指标：</strong>数据从采集到AI分析完成 ≤15分钟；AI自动派单率 ≥70%；工单闭环 ≤48小时；月度报告自动生成率 100%。</p></div>
+</div>
+</div>
 
 </div></div>
 
