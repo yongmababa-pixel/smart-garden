@@ -5,8 +5,9 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import or_
-from typing import Optional
+from typing import Optional, List
 from datetime import datetime, timezone
+from pydantic import BaseModel as PydanticBase, Field
 import math
 
 from database import get_db, WorkOrder, Task, TaskStatus
@@ -16,6 +17,29 @@ from models import (
 )
 
 router = APIRouter(prefix="/api/v1/tasks", tags=["工单"])
+
+
+# ─── 工单操作请求体 ─────────────────────────────────────
+
+class DispatchRequest(PydanticBase):
+    """派发请求"""
+    assigned_to: int = Field(..., description="处置人 ID")
+    due_date: Optional[datetime] = None
+    remark: Optional[str] = None
+
+
+class ResolveRequest(PydanticBase):
+    """处置请求"""
+    resolution: str = Field(..., min_length=1, description="处置方案")
+    cost: float = Field(default=0.0, description="处置成本")
+    images: List[str] = Field(default=[], description="现场图片")
+
+
+class VerifyRequest(PydanticBase):
+    """验收请求"""
+    verified_by: int = Field(..., description="验收人 ID")
+    approved: bool = Field(default=True, description="是否通过")
+    remark: Optional[str] = None
 
 
 # ═══════════════════════════════════════════════════════════
@@ -76,7 +100,9 @@ def create_work_order(data: WorkOrderCreate, db: Session = Depends(get_db)):
     if existing:
         raise HTTPException(status_code=400, detail=f"工单编号 {data.order_no} 已存在")
 
-    wo = WorkOrder(**data.model_dump(), status=TaskStatus.PENDING.value)
+    create_data = data.model_dump()
+    create_data["status"] = TaskStatus.PENDING.value
+    wo = WorkOrder(**create_data)
     db.add(wo)
     db.commit()
     db.refresh(wo)
@@ -109,48 +135,6 @@ def delete_work_order(order_id: int, db: Session = Depends(get_db)):
 # ═══════════════════════════════════════════════════════════
 # 工单生命周期操作
 # ═══════════════════════════════════════════════════════════
-
-class DispatchRequest(BaseModel):
-    """派发请求"""
-    assigned_to: int = Field(..., description="处置人 ID")
-    due_date: Optional[datetime] = None
-    remark: Optional[str] = None
-
-
-class ResolveRequest(BaseModel):
-    """处置请求"""
-    resolution: str = Field(..., min_length=1, description="处置方案")
-    cost: float = Field(default=0.0, description="处置成本")
-    images: List[str] = Field(default=[], description="现场图片")
-
-
-class VerifyRequest(BaseModel):
-    """验收请求"""
-    verified_by: int = Field(..., description="验收人 ID")
-    approved: bool = Field(default=True, description="是否通过")
-    remark: Optional[str] = None
-
-from pydantic import BaseModel as PydanticBase, Field
-from typing import List
-
-
-class DispatchRequest(PydanticBase):
-    assigned_to: int = Field(..., description="处置人 ID")
-    due_date: Optional[datetime] = None
-    remark: Optional[str] = None
-
-
-class ResolveRequest(PydanticBase):
-    resolution: str = Field(..., min_length=1, description="处置方案")
-    cost: float = Field(default=0.0, description="处置成本")
-    images: List[str] = Field(default=[], description="现场图片")
-
-
-class VerifyRequest(PydanticBase):
-    verified_by: int = Field(..., description="验收人 ID")
-    approved: bool = Field(default=True, description="是否通过")
-    remark: Optional[str] = None
-
 
 @router.post("/work-orders/{order_id}/dispatch", response_model=WorkOrderResponse, summary="派发工单")
 def dispatch_work_order(order_id: int, request: DispatchRequest, db: Session = Depends(get_db)):
@@ -218,7 +202,7 @@ def verify_work_order(order_id: int, request: VerifyRequest, db: Session = Depen
 
 
 # ═══════════════════════════════════════════════════════════
-# 任务统计
+# 工单统计
 # ═══════════════════════════════════════════════════════════
 
 @router.get("/stats", summary="工单统计")

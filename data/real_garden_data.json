@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "title": "深圳智慧园林与城市绿化管理真实数据",
+    "description": "从深圳市城管局官网、百度百科、深圳公园管理中心等权威渠道收集的真实数据，用于前端Mock数据填充",
+    "data_sources": [
+      "深圳市城市管理和综合执法局官网 (cgj.sz.gov.cn)",
+      "百度百科 - 深圳市城市管理和综合执法局词条",
+      "深圳市政府数据开放平台 (opendata.sz.gov.cn)",
+      "华南地区园林绿化行业资料"
+    ],
+    "last_updated": "2026-06-25",
+    "region": "深圳/华南地区"
+  },
+
+  "plants": {
+    "description": "深圳常见行道树与园林苗木种类清单，基于华南地区气候特征和深圳城管局公布的养护指引文件",
+    "total_species": 50,
+    "categories": {
+      "行道树_乔木类": [
+        { "name": "香樟", "scientific_name": "Cinnamomum camphora", "type": "常绿乔木", "common_use": "主要行道树", "source": "深圳市绿化管理处养护项目" },
+        { "name": "大叶榕", "scientific_name": "Ficus virens var. sublanceolata", "type": "落叶乔木", "common_use": "主要行道树", "source": "深圳常见行道树种" },
+        { "name": "细叶榕", "scientific_name": "Ficus microcarpa", "type": "常绿乔木", "common_use": "行道树/庭荫树", "source": "深圳常见行道树种" },
+        { "name": "高山榕", "scientific_name": "Ficus altissima", "type": "常绿乔木", "common_use": "行道树/景观树", "source": "深圳常见行道树种" },
+        { "name": "凤凰木", "scientific_name": "Delonix regia", "type": "落叶乔木", "common_use": "主要行道树/观赏树", "source": "深圳特色花景植物" },
+        { "name": "黄花风铃木", "scientific_name": "Handroanthus chrysanthus", "type": "落叶乔木", "common_use": "观赏行道树", "source": "深圳市风铃木类树木养护技术指引" },
+        { "name": "紫花风铃木", "scientific_name": "Handroanthus impetiginosus", "type": "落叶乔木", "common_use": "观赏行道树", "source": "深圳市风铃木类树木养护技术指引" },
+        { "name": "美丽异木棉", "scientific_name": "Ceiba speciosa", "type": "落叶乔木", "common_use": "观赏行道树", "source": "深圳市美丽异木棉养护技术指引（试行）" },
+        { "name": "木棉", "scientific_name": "Bombax ceiba", "type": "落叶乔木", "common_use": "行道树/观赏树", "source": "华南地区乡土树种" },
+        { "name": "紫荆", "scientific_name": "Bauhinia × blakeana", "type": "常绿乔木", "common_use": "市花/行道树/观赏树", "source": "深圳市花" },
+        { "name": "宫粉紫荆", "scientific_name": "Bauhinia variegata", "type": "落叶乔木", "common_use": "行道树/观赏树", "source": "深圳特色花景植物" },
+        { "name": "白兰", "scientific_name": "Michelia × alba", "type": "常绿乔木", "common_use": "行道树/芳香植物", "source": "华南常见园林树种" },
+        { "name": "芒果", "scientific_name": "Mangifera indica", "type": "常绿乔木", "common_use": "行道树/果树", "source": "深圳常见行道树种" },
+        { "name": "扁桃", "scientific_name": "Mangifera persiciformis", "type": "常绿乔木", "common_use": "行道树", "source": "深圳常见行道树种" },
+        { "name": "大叶紫薇", "scientific_name": "Lagerstroemia speciosa", "type": "落叶乔木", "common_use": "行道树/观赏树", "source": "深圳特色花景植物" },
+        { "name": "小叶榄仁", "scientific_name": "Terminalia neotaliala", "type": "落叶乔木", "common_use": "行道树", "source": "深圳常见行道树种" },
+        { "name": "盆架子", "scientific_name": "Alstonia scholaris", "type": "常绿乔木", "common_use": "行道树", "source": "深圳常见行道树种" },
+        { "name": "秋枫", "scientific_name": "Bischofia javanica", "type": "常绿乔木", "common_use": "行道树", "source": "深圳常见行道树种" },
+        { "name": "海南蒲桃", "scientific_name": "Syzygium hainanense", "type": "常绿乔木", "common_use": "行道树", "source": "华南乡土树种" },
+        { "name": "人面子", "scientific_name": "Dracontomelon duperreanum", "type": "常绿乔木", "common_use": "行道树", "source": "深圳常见行道树种" }
+      ],
+      "行道树_棕榈类": [
+        { "name": "大王椰", "scientific_name": "Roystonea regia", "type": "棕榈科", "common_use": "行道树/景观树", "source": "深圳常见棕榈类植物" },
+        { "name": "狐尾椰", "scientific_name": "Wodyetia bifurcata", "type": "棕榈科", "common_use": "景观树", "source": "深圳常见棕榈类植物" },
+        { "name": "银海枣", "scientific_name": "Phoenix sylvestris", "type": "棕榈科", "common_use": "行道树/景观树", "source": "深圳常见棕榈类植物" },
+        { "name": "散尾葵", "scientific_name": "Dypsis lutescens", "type": "棕榈科", "common_use": "庭院观赏", "source": "深圳常见棕榈类植物" },
+        { "name": "棕竹", "scientific_name": "Rhapis excelsa", "type": "棕榈科", "common_use": "绿篱/盆栽", "source": "深圳常见棕榈类植物" }
+      ],
+      "灌木与地被类": [
+        { "name": "簕杜鹃", "scientific_name": "Bougainvillea spectabilis", "type": "灌木/藤本", "common_use": "深圳市花/绿化带/天桥绿化", "source": "深圳市花" },
+        { "name": "红花檵木", "scientific_name": "Loropetalum chinense var. rubrum", "type": "常绿灌木", "common_use": "绿篱/色块", "source": "深圳常见灌木" },
+        { "name": "黄金叶", "scientific_name": "Duranta erecta 'Golden Leaves'", "type": "常绿灌木", "common_use": "绿篱/色块", "source": "深圳常见灌木" },
+        { "name": "福建茶", "scientific_name": "Carmona microphylla", "type": "常绿灌木", "common_use": "绿篱", "source": "深圳常见灌木" },
+        { "name": "鹅掌柴", "scientific_name": "Schefflera heptaphylla", "type": "常绿灌木/乔木", "common_use": "绿篱/庭荫树", "source": "深圳常见灌木" },
+        { "name": "灰莉", "scientific_name": "Fagraea ceilanica", "type": "常绿灌木", "common_use": "绿篱/球类", "source": "深圳常见灌木" },
+        { "name": "海桐", "scientific_name": "Pittosporum tobira", "type": "常绿灌木", "common_use": "绿篱/球类", "source": "深圳常见灌木" },
+        { "name": "龙船花", "scientific_name": "Ixora chinensis", "type": "常绿灌木", "common_use": "花灌木/色块", "source": "深圳常见花灌木" },
+        { "name": "朱槿", "scientific_name": "Hibiscus rosa-sinensis", "type": "常绿灌木", "common_use": "花灌木", "source": "深圳常见花灌木" },
+        { "name": "变叶木", "scientific_name": "Codiaeum variegatum", "type": "常绿灌木", "common_use": "彩叶植物/色块", "source": "深圳常见彩叶植物" },
+        { "name": "红背桂", "scientific_name": "Excoecaria cochinchinensis", "type": "常绿灌木", "common_use": "彩叶植物/色块", "source": "深圳常见彩叶植物" },
+        { "name": "鸭脚木", "scientific_name": "Schefflera arboricola", "type": "常绿灌木", "common_use": "绿篱/盆栽", "source": "深圳常见灌木" },
+        { "name": "红花鸡蛋花", "scientific_name": "Plumeria rubra", "type": "落叶灌木/小乔", "common_use": "观赏树", "source": "深圳特色花景植物" },
+        { "name": "桂花", "scientific_name": "Osmanthus fragrans", "type": "常绿灌木/小乔", "common_use": "芳香植物/庭院树", "source": "华南常见园林树种" }
+      ],
+      "草坪与地被": [
+        { "name": "马尼拉草", "scientific_name": "Zoysia matrella", "type": "暖季型草坪", "common_use": "公共绿地草坪", "source": "华南常见草坪草种" },
+        { "name": "台湾草", "scientific_name": "Zoysia tenuifolia", "type": "暖季型草坪", "common_use": "精细草坪", "source": "华南常见草坪草种" },
+        { "name": "大叶油草", "scientific_name": "Axonopus compressus", "type": "暖季型草坪", "common_use": "耐阴草坪", "source": "华南常见草坪草种" },
+        { "name": "蔓花生", "scientific_name": "Arachis duranensis", "type": "地被植物", "common_use": "护坡/地被覆盖", "source": "深圳常见地被植物" },
+        { "name": "翠芦莉", "scientific_name": "Ruellia simplex", "type": "多年生草本", "common_use": "花境/地被", "source": "深圳常见地被植物" },
+        { "name": "蜘蛛兰", "scientific_name": "Hymenocallis littoralis", "type": "多年生草本", "common_use": "花境/地被", "source": "深圳常见地被植物" }
+      ]
+    }
+  },
+
+  "pests_and_diseases": {
+    "description": "深圳园林常见病虫害清单，基于华南地区气候特征和园林养护实践",
+    "total_pests": 22,
+    "categories": {
+      "食叶害虫": [
+        { "name": "榕树蓟马", "host_plants": ["榕树类"], "damage": "吸食叶片汁液，导致叶片卷曲、畸形", "peak_season": "4-10月", "source": "深圳常见榕树害虫" },
+        { "name": "樟巢螟", "host_plants": ["香樟"], "damage": "幼虫吐丝缀叶成巢，啃食叶片", "peak_season": "5-9月", "source": "深圳常见香樟害虫" },
+        { "name": "椰心叶甲", "host_plants": ["棕榈科植物"], "damage": "幼虫钻入未展开心叶取食，致叶片枯死", "peak_season": "4-11月", "source": "深圳棕榈科主要害虫" },
+        { "name": "凤凰木夜蛾", "host_plants": ["凤凰木"], "damage": "幼虫大量取食叶片，严重时将整树叶片吃光", "peak_season": "6-9月", "source": "深圳凤凰木常见害虫" },
+        { "name": "灰白蚕蛾", "host_plants": ["榕树类、黄葛树"], "damage": "幼虫取食叶片，造成孔洞和缺刻", "peak_season": "5-10月", "source": "深圳榕树常见害虫" },
+        { "name": "绿翅绢野螟", "host_plants": ["盆架子"], "damage": "幼虫卷叶取食叶肉", "peak_season": "5-9月", "source": "深圳盆架子常见害虫" },
+        { "name": "紫薇绒蚧", "host_plants": ["紫薇类"], "damage": "刺吸汁液，诱发煤污病", "peak_season": "4-10月", "source": "深圳紫薇常见害虫" }
+      ],
+      "刺吸式害虫": [
+        { "name": "榕管蓟马", "host_plants": ["榕树类"], "damage": "锉吸叶片和嫩梢，形成虫瘿", "peak_season": "3-11月", "source": "深圳榕树主要害虫" },
+        { "name": "红蜘蛛", "host_plants": ["多种园林植物"], "damage": "吸食叶背汁液，叶片失绿变黄", "peak_season": "高温干旱季（7-10月）", "source": "深圳园林常见螨害" },
+        { "name": "蚜虫类", "host_plants": ["紫荆、木棉、海桐等多种"], "damage": "群集嫩梢嫩叶吸食汁液，分泌蜜露诱发煤污病", "peak_season": "3-6月、9-11月", "source": "深圳园林常见害虫" },
+        { "name": "介壳虫类", "host_plants": ["多种园林植物"], "damage": "固定在枝干和叶片吸食汁液，致树势衰弱", "peak_season": "4-10月", "source": "深圳园林常见害虫" },
+        { "name": "粉虱类", "host_plants": ["多种园林植物"], "damage": "刺吸叶片汁液，分泌蜜露诱发煤污", "peak_season": "4-11月", "source": "深圳园林常见害虫" }
+      ],
+      "蛀干害虫": [
+        { "name": "天牛类", "host_plants": ["木棉、凤凰木、紫荆等"], "damage": "幼虫蛀食树干和枝条，导致枯枝断干", "peak_season": "5-10月", "source": "深圳园林蛀干害虫" },
+        { "name": "小蠹虫", "host_plants": ["多种衰弱树木"], "damage": "钻蛀树皮和木质部，加速树木死亡", "peak_season": "4-10月", "source": "深圳园林次期性害虫" }
+      ],
+      "地下害虫": [
+        { "name": "蛴螬", "host_plants": ["草坪、苗木根部"], "damage": "幼虫取食根部，致草坪枯黄、苗木死亡", "peak_season": "4-9月", "source": "深圳园林地下害虫" },
+        { "name": "地老虎", "host_plants": ["幼苗、草坪"], "damage": "幼虫咬断幼苗基部", "peak_season": "4-6月", "source": "深圳园林地下害虫" }
+      ],
+      "入侵性害虫": [
+        { "name": "红火蚁", "host_plants": ["不直接危害植物"], "damage": "攻击性强，叮咬人畜，破坏生态", "peak_season": "全年（4-11月高发）", "source": "深圳市外来入侵物种重点防控对象" },
+        { "name": "白蚁", "host_plants": ["多种树木、木质结构"], "damage": "蛀食树木木质部和园林木质设施", "peak_season": "4-8月（分飞期）", "source": "深圳园林白蚁危害" },
+        { "name": "薇甘菊", "host_plants": ["攀附覆盖多种植物"], "damage": "外来入侵植物，缠绕覆盖导致植物死亡", "peak_season": "5-11月", "source": "深圳市重点清除的外来入侵植物" }
+      ],
+      "主要病害": [
+        { "name": "煤污病", "host_plants": ["多种园林植物"], "pathogen": "煤污病菌（伴随蚜虫/介壳虫发生）", "peak_season": "4-11月", "source": "深圳园林常见病害" },
+        { "name": "白粉病", "host_plants": ["紫薇、月季、九里香等"], "pathogen": "白粉病菌", "peak_season": "3-6月、10-11月", "source": "深圳园林常见病害" },
+        { "name": "炭疽病", "host_plants": ["多种阔叶树木"], "pathogen": "炭疽病菌", "peak_season": "高温多雨季（5-9月）", "source": "深圳园林常见病害" }
+      ]
+    }
+  },
+
+  "maintenance_standards": {
+    "description": "深圳园林养护标准数据，来源于深圳市城管局公布的技术指引和行业规范",
+    "documents_referenced": [
+      "深圳市美丽异木棉养护技术指引（试行）2025年3月发布",
+      "深圳市风铃木类树木养护技术指引 2024年10月发布",
+      "粤港澳大湾区城市绿化树木修剪技术指导系列 2026年4月发布",
+      "深圳城市绿化树木修剪工作指引（试行）2023年12月发布",
+      "深圳市常用绿化树木迁移成活率指引（试行）2023年6月发布",
+      "林荫道建设规范（地方标准）2025年1月发布",
+      "深圳经济特区绿化条例（2019年修订）"
+    ],
+    "pruning": {
+      "description": "修剪周期与标准",
+      "regular_pruning": {
+        "frequency": "每年1-2次常规修剪",
+        "best_season": ["冬季休眠期（12月-次年2月）为主要修剪期", "台风季前（5-6月）为安全修剪期"],
+        "tree_types": {
+          "常绿乔木": "轻度修剪，疏除过密枝、病虫枝、枯枝",
+          "落叶乔木": "休眠期可中度修剪，调整树形",
+          "棕榈类": "及时剪除枯黄老叶，保留适量功能叶",
+          "灌木绿篱": "生长季每1-2个月修剪一次保持造型",
+          "草坪": "生长旺季每7-10天修剪一次，保持高度3-5cm"
+        }
+      },
+      "typhoon_pruning": {
+        "description": "台风季前（每年5-6月）必须进行的安全修剪",
+        "key_actions": ["疏剪过密枝条减少风阻", "短截过长枝", "清除枯枝、病虫枝", "检查加固支撑"],
+        "frequency": "每年台风季前必须完成"
+      },
+      "beautification_pruning": {
+        "description": "花后修剪和造型修剪",
+        "key_actions": ["花灌木花后及时修剪残花", "观赏乔木保持优美树形", "行道树保持枝下高4.5米以上"]
+      }
+    },
+    "fertilization": {
+      "description": "施肥频次与标准",
+      "general_standard": {
+        "frequency": "每年2-3次",
+        "timing": ["春季（2-3月）施促芽肥", "夏季（5-6月）施壮树肥", "秋季（10-11月）施越冬肥"],
+        "fertilizer_types": ["有机肥（腐熟鸡粪、花生麸等）", "复合肥（N-P-K 15-15-15）", "微量元素肥"],
+        "methods": ["穴施（乔木，树冠投影边缘）", "撒施（草坪和地被）", "液施（花卉和弱树复壮）"]
+      },
+      "special_cases": {
+        "美丽异木棉": "薄肥勤施，避免氮肥过多导致徒长，花期前增施磷钾肥",
+        "风铃木类": "春秋各施一次有机肥，花期后追施复合肥，忌过量氮肥",
+        "行道树": "每年春季穴施有机肥3-5kg/株+复合肥0.5kg/株",
+        "棕榈类": "每年2-3次，偏重钾肥，配合微量元素（硼、镁）防缺素症"
+      }
+    },
+    "watering": {
+      "description": "浇水要求",
+      "general_standard": {
+        "new_plants": "定植后3个月内保证充足水分，每周浇透2-3次",
+        "established_plants": "根据天气和土壤湿度适量浇水，旱季每周1-2次",
+        "frequency_by_season": {
+          "春季（3-5月）": "每周1-2次，视降雨情况调整",
+          "夏季（6-9月）": "高温晴天每天或隔天浇水（清晨或傍晚），雨季及时排涝",
+          "秋季（10-11月）": "每周1-2次，逐步减少",
+          "冬季（12-2月）": "每7-10天一次，保持土壤微润即可"
+        }
+      },
+      "special_requirements": {
+        "美丽异木棉": "耐旱怕涝，保持土壤排水良好，雨季注意排水防烂根",
+        "风铃木类": "生长期保持土壤湿润但不积水，休眠期控水",
+        "草坪": "夏季高温期早晚各喷淋一次，避免中午浇水灼伤",
+        "绿篱": "保持土壤湿润，干旱时及时补水"
+      }
+    },
+    "pest_control": {
+      "description": "病虫害防治标准",
+      "principle": "预防为主、综合防治，优先采用生物防治和物理防治",
+      "monitoring_frequency": "生长季每7-15天巡查一次，重点季节加密至每周一次",
+      "control_threshold": "发现病虫害初期即采取防治措施，避免大面积爆发",
+      "methods": ["物理防治（诱虫灯、粘虫板、人工捕杀）", "生物防治（天敌昆虫、生物农药）", "化学防治（低毒农药轮换使用）"]
+    }
+  },
+
+  "park_statistics": {
+    "description": "深圳市公园/绿地数量统计，来源于深圳市城管局和百度百科",
+    "official_data_2024": {
+      "total_parks": 1320,
+      "green_coverage_rate": "45.69%",
+      "note": "建成区绿化覆盖率",
+      "city_vision": "到2035年全面建成'山、海、城、园'有机融合的全域公园城市",
+      "source": "深圳市城市管理和综合执法局百度百科词条（引用2024年数据）"
+    },
+    "park_classification": {
+      "natural_parks": {
+        "description": "自然公园（含森林公园、郊野公园、风景名胜区）",
+        "examples": [
+          "塘朗山郊野公园",
+          "梅林山郊野公园",
+          "马峦山郊野公园",
+          "阳台山森林公园",
+          "梧桐山风景名胜区",
+          "大鹏半岛国家地质公园"
+        ]
+      },
+      "urban_parks": {
+        "description": "城市公园（市政公园、综合公园）",
+        "examples": [
+          "深圳湾公园",
+          "深圳人才公园",
+          "深圳中心公园（116.8万㎡）",
+          "洪湖公园（约59.15公顷）",
+          "香蜜公园",
+          "儿童乐园（18.20万㎡）",
+          "梅林公园（约121公顷）",
+          "深圳北站中心公园（约17万㎡）",
+          "深圳市仙湖植物园（668公顷）",
+          "莲花山公园",
+          "笔架山公园",
+          "荔枝公园",
+          "东湖公园",
+          "园博园"
+        ]
+      },
+      "community_parks": {
+        "description": "社区公园（分布在各街道社区的小型公园绿地）",
+        "examples": [
+          "遍布全市各街道社区，推窗见绿、开门进园"
+        ]
+      }
+    },
+    "greenway_system": {
+      "description": "深圳绿道体系",
+      "brand": "鹏城万里步道",
+      "example_greenways": [
+        "盐田海滨绿道",
+        "宝安环立新湖绿道",
+        "龙华环城绿道（大水坑段）",
+        "龙华环城绿道（阳台山段）",
+        "罗湖淘金山绿道",
+        "宝安凤凰山绿道",
+        "光明马拉松山湖绿道（一期）"
+      ],
+      "eco_initiative": "山海连城绿美深圳生态建设"
+    },
+    "honors": [
+      "国际花园城市",
+      "全国绿化模范城市",
+      "国家园林城市",
+      "国家环保模范城市",
+      "创建国家生态园林城市示范市"
+    ]
+  },
+
+  "smart_garden_and_drones": {
+    "description": "深圳智慧城管及无人机巡检园林的真实应用",
+    "smart_city_system": {
+      "name": "数智城管体系（深圳智慧城管平台）",
+      "launched": "2021年上线运行，2025年系统性重构升级",
+      "features": ["感知", "分析", "服务", "指挥", "监察"],
+      "coverage": "覆盖园林绿化、环境卫生、城市照明、市容管理、城管执法、数字城管等全业务领域",
+      "architecture": "集约统一、数据融合、高效协同的一体化城市管理综合平台",
+      "goal": "全市城市管理'一网统管'，从'分散管控'向'整体智治'跃迁",
+      "source": "深圳市城管局数智城管专题页"
+    },
+    "ai_and_robot_applications": {
+      "sanitation_robots": {
+        "count": 230,
+        "unit": "台",
+        "description": "全市投入使用的环卫机器人"
+      },
+      "ai_video_monitoring": {
+        "coverage_points": 20000,
+        "unit": "个",
+        "description": "'视频+AI'覆盖的垃圾投放点数量"
+      },
+      "drone_delivery_routes": {
+        "count": 11,
+        "unit": "条",
+        "description": "公园无人机配送航线",
+        "application": "公园无人机配送服务"
+      },
+      "source": "深圳市城市管理和综合执法局百度百科词条（引用2024年数据）"
+    },
+    "drone_applications_in_gardens": {
+      "description": "深圳公园无人机巡检与配送应用",
+      "applications": [
+        {
+          "type": "无人机配送",
+          "detail": "深圳已落地公园无人机配送航线11条，实现公园内餐饮、商品无人机配送服务",
+          "parks_involved": "多个市属公园"
+        },
+        {
+          "type": "园林巡检",
+          "detail": "利用无人机进行公园和绿地空中巡检，监测绿化养护状况、病虫害、违规占用等情况",
+          "advantages": ["覆盖范围广", "效率高", "可到达人员难以进入的区域"]
+        },
+        {
+          "type": "AI+视频监控",
+          "detail": "建成'视频+AI'智能监控系统，覆盖垃圾投放点2万余个，实现自动识别和预警"
+        },
+        {
+          "type": "2025深圳国际人工智能环卫机器人大赛",
+          "detail": "深圳市城管局2025年联合主办，推动AI环卫机器人技术创新和应用"
+        }
+      ]
+    },
+    "waste_management_smart_data": {
+      "recycling_rate": "49.1%",
+      "kitchen_waste_sorting_rate": "25%以上",
+      "harmless_treatment_rate": "100%",
+      "national_ranking": "住房城乡建设部评估21个超特大城市第一档第三名",
+      "source": "百度百科引用2024年数据"
+    }
+  },
+
+  "organization_structure": {
+    "description": "深圳市城管局/园林局的组织架构和业务范围，来源于百度百科和官网",
+    "current_name": "深圳市城市管理和综合执法局",
+    "former_name": "深圳市城市管理局（深圳市城市管理行政执法局）",
+    "renamed_date": "2019年1月28日",
+    "nature": "深圳市人民政府工作部门",
+    "address": "深圳市福田区莲花支路1004号城管大厦",
+    "postal_code": "518036",
+    "main_responsibilities": [
+      "园林绿化管理与养护",
+      "环境卫生管理",
+      "城市照明管理",
+      "市容管理",
+      "数字化城管建设与运行",
+      "城市管理综合执法",
+      "生活垃圾无害化处理",
+      "环卫作业机械化与智慧城管建设",
+      "法规规章起草与实施",
+      "市容环境综合整治"
+    ],
+    "leadership": [
+      { "name": "张国宏", "title": "局党组书记、局长", "role": "主持全面工作" },
+      { "name": "周超", "title": "市公园管理中心党委书记、主任", "role": "主持市公园管理中心全面工作" },
+      { "name": "汪斌", "title": "局党组成员、副局长", "role": "分管行政后勤、物业管理、环境卫生、垃圾分类、宣教和发展研究工作；分管办公室、市环境卫生管理处、市生活垃圾分类管理事务中心、市下坪环境园、市城管宣教和发展研究中心；担任局新闻发言人" },
+      { "name": "杨立群", "title": "局党组成员、二级巡视员", "role": "分管运行维护监管、公园管理、绿化管理、植物园工作；分管运行维护监管处、市公园管理中心、市绿化管理处、市仙湖植物园" },
+      { "name": "冯增军", "title": "局党组成员、副局长", "role": "分管考核指导、信息化建设、智慧城管、市容管理、灯光环境建设管理工作；分管考核指导处、市城管监督指挥中心、市市容景观事务中心、市生活垃圾处理监管中心" },
+      { "name": "黄立新", "title": "局党组成员、副局长", "role": "分管党务人事、纪检监察、法治建设、行政审批、安全生产、规划建设、产业发展、综合执法工作；分管法制处（审批服务处）、规划建设处、执法监督处、机关党委（人事处）、机关纪委" },
+      { "name": "杨雷", "title": "局党组成员、副局长", "role": "参加深圳对口帮扶协作河源指挥部工作" },
+      { "name": "吴江天", "title": "一级调研员、局工会联合会主席、局妇女委员会主任", "role": "分管计划财务、工会、共青团、妇女工作；分管计划财务处、局工会联合会、局团委、局妇女委员会" }
+    ],
+    "internal_departments": [
+      { "name": "办公室", "function": "负责文电、会务、机要、档案等机关日常运转工作。承担信息、调研、综合文稿起草、安全、保密、信访、政务公开、新闻宣传等工作" },
+      { "name": "法制处（审批服务处）", "function": "组织起草有关地方性法规、规章草案。组织重大课题调研和政策研究。承担规范性文件的合法性审核工作，承担行政复议、行政应诉工作。承担政务服务改革和行政审批服务事项标准化工作" },
+      { "name": "计划财务处", "function": "承担部门预算决算编制、财务管理、固定资产管理、内部审计等工作。承担部门预算的执行及绩效评价、城市维护费的计划安排工作。监督管理生活垃圾处理费的征收及使用" },
+      { "name": "综合管理处", "function": "拟订安全生产、物业管理、工程管理有关制度规范。指导和监督检查安全生产、物业管理、工程建设等工作。组织协调应急管理工作" },
+      { "name": "市容管理处", "function": "组织编制城市容貌有关标准、规范并组织实施。指导监督和检查全市户外广告设施管理工作。承担全市市容环境综合考核工作" },
+      { "name": "园林处", "function": "组织拟订城市绿化总体规划、城市园林绿化建设发展纲要。组织拟订市政公园建设管理标准。承担全市园林绿化绩效考核、占用绿地审批工作。组织开展园林绿化科学研究和所属公园的自然教育工作" },
+      { "name": "执法监督处", "function": "拟订城管综合执法领域的制度、规范并组织实施。牵头开展全市性专项执法工作。组织查处跨区、重大、复杂案件。指导监督各区开展城管综合执法工作" },
+      { "name": "机关党委（人事处）", "function": "负责党群工作。承担干部人事、机构编制、劳动工资、教育培训、外事、离退休人员服务、人才队伍建设等工作" }
+    ],
+    "subordinate_agencies": [
+      {
+        "name": "深圳市公园管理中心",
+        "function": "组织实施市属公园（含市政公园、郊野公园、森林公园）和所属单位园林绿化发展规划、建设养护计划；负责市属公园新建和重大改建项目规划设计；负责市属公园生态资源保护；对公园管养承包服务单位检查、监督、考核和评估",
+        "key_parks": ["深圳湾公园", "深圳中心公园", "莲花山公园", "笔架山公园", "洪湖公园", "儿童乐园", "梅林公园"]
+      },
+      {
+        "name": "市环境卫生管理处",
+        "function": "贯彻执行市容环境卫生管理法律法规；指导、监督、检查各区环境卫生工作；参与大中型垃圾转运站、处理厂等环境卫生设施规划设计审查及竣工验收；组织实施生活垃圾处理特许经营；监管全市大型生活垃圾处理设施运营"
+      },
+      {
+        "name": "市城管监督指挥中心",
+        "function": "负责制定全市数字化城市管理技术标准、运行规范、规章制度；协调解决各区城市管理部件和事件问题；对数字化城市管理有关信息进行统计分析"
+      },
+      {
+        "name": "市绿化管理处",
+        "function": "贯彻执行园林绿化管理法律法规；指导、监督、检查全市绿化管理工作；参与新建公共绿地景观设计审核及竣工验收；组织实施城区内公共绿地、生产绿地的规划、建设和管理；承担省立绿道建设；对各区绿道建设和管理工作进行指导、监督、检查和考核"
+      },
+      {
+        "name": "市灯光环境管理中心",
+        "function": "参与拟定城市照明设施建设和管理的政策法规、规划、标准规范；承担城市道路照明设施统一监督管理；承担市级投资的景观照明建设；承担规划一级区域内政府投资建设的景观照明设施维护管理和电费补贴"
+      },
+      {
+        "name": "市仙湖植物园管理处",
+        "function": "承担仙湖植物园的建设、养护和管理；保护利用植物园资源，开展科研科普及旅游服务工作；园林与林业研究。仙湖植物园占地668公顷"
+      },
+      {
+        "name": "市生活垃圾分类管理事务中心",
+        "function": "参与拟订生活垃圾减量分类的政策法规、发展规划和年度计划；组织指导生活垃圾减量分类试点、示范点建设；组织开展生活垃圾分类收运处理技术、工艺、设备的研究"
+      },
+      {
+        "name": "市城管科研所（市城管宣教信息中心）",
+        "function": "负责全市城管系统信息化建设；建立和维护城管系统网络；建立城市管理信息数据库及网站；负责城管期刊编辑发行、媒体传播及大型城管宣传活动策划；负责城管系统科研管理工作"
+      },
+      {
+        "name": "深圳市生活垃圾处理监管中心",
+        "function": "承担市管理的生活垃圾处理设施建设、运行监管和考核评价的具体事务性工作；承担垃圾密闭化运输的定点监管工作；参与全市生活垃圾处理质量标准体系建设"
+      },
+      {
+        "name": "深圳市城市废物处置中心",
+        "function": "负责全市病死禽畜、不合格肉冻制品以及粪渣的无害化处理；负责市属建筑垃圾收纳场的组织建设和日常管理；负责污泥、厨余等固体废弃物综合利用的研究开发"
+      },
+      {
+        "name": "深圳市下坪固体废弃物填埋场",
+        "function": "负责罗湖区、福田区的生活垃圾卫生填埋处理，渗滤液深度处理及填埋气体收集处理和资源化利用"
+      }
+    ],
+    "green_specific_departments": {
+      "description": "与园林绿化直接相关的部门",
+      "园林处": "局内设机构，负责绿化总体规划、公园建设标准、绿化绩效考核",
+      "市绿化管理处": "直属机构，负责全市绿化日常监管、公共绿地建设管理、绿道建设",
+      "市公园管理中心": "直属机构，负责市属公园全面管理、生态资源保护",
+      "市仙湖植物园": "直属机构，科研+旅游+植物保育"
+    }
+  },
+
+  "additional_info": {
+    "city_flower": "簕杜鹃（三角梅）Bougainvillea",
+    "city_tree": "荔枝（Litchi chinensis）和红树（Mangrove）",
+    "notable_regulations": [
+      "深圳经济特区绿化条例（2019年修订）",
+      "深圳经济特区城市园林条例",
+      "深圳经济特区公园条例"
+    ],
+    "shanhai_liancheng": {
+      "name": "山海连城绿美深圳",
+      "description": "构建多层次户外步道体系，打造'鹏城万里'步道品牌，实施城市照明品质提升工程",
+      "vision": "连山、通海、贯城、串趣的绿美深圳"
+    },
+    "environmental_data": {
+      "garbage_recycling_rate": "49.1%",
+      "kitchen_waste_sorting_rate": "25%以上",
+      "harmless_treatment_rate": "100%",
+      "green_coverage": "45.69%"
+    }
+  }
+}

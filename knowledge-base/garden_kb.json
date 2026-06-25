@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "tree_001",
+    "category": "tree",
+    "name": "香樟",
+    "latin": "Cinnamomum camphora",
+    "family": "樟科",
+    "genus": "樟属",
+    "morphology": {
+      "leaf": "叶互生，卵状椭圆形，长6-12cm，薄革质，离基三出脉，脉腋有腺体，揉碎有樟脑香气",
+      "flower": "圆锥花序腋生，花小，黄绿色，花期4-5月",
+      "fruit": "浆果球形，紫黑色，径约6-8mm，果期8-11月",
+      "bark": "树皮黄褐色，不规则纵裂"
+    },
+    "growth_habit": "常绿乔木，树冠广卵形，生长速度中等，寿命长，萌芽力强，耐修剪",
+    "suitable_environment": "喜光，稍耐半荫；喜温暖湿润气候，不耐寒；适生于深厚肥沃的酸性至中性土壤，耐水湿",
+    "common_pests": ["pest_006", "pest_001", "pest_011", "pest_012", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "春季萌芽前整形修剪，去除枯枝、病虫枝、过密枝；生长期可轻度修剪",
+      "fertilization": "春季施复合肥0.5-1kg/株，秋季施有机肥2-3kg/株",
+      "watering": "生长期保持土壤湿润，夏季高温干旱时每周浇水2-3次；雨季注意排水"
+    }
+  },
+  {
+    "id": "tree_002",
+    "category": "tree",
+    "name": "小叶榕",
+    "latin": "Ficus microcarpa",
+    "family": "桑科",
+    "genus": "榕属",
+    "morphology": {
+      "leaf": "叶椭圆形至倒卵形，长4-8cm，先端钝尖，全缘，薄革质，有光泽",
+      "flower": "隐头花序，花小生于隐花果内",
+      "fruit": "隐花果球形，径6-8mm，熟时紫红色至紫黑色，全年可结果",
+      "bark": "树皮灰褐色，平滑，具气生根，老树常有支柱根"
+    },
+    "growth_habit": "常绿大乔木，生长迅速，树冠庞大，寿命极长，气生根发达，抗风力强",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候，耐热耐湿；对土壤要求不严，耐瘠薄，不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_014", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "每年1-2次，春季重剪控制冠幅，台风季前疏剪增强抗风能力；气生根需定期修剪",
+      "fertilization": "春秋各施复合肥1次，大株每株0.5-1kg",
+      "watering": "大树耐旱，干旱季节每月浇水1-2次；新栽植株保持土壤湿润"
+    }
+  },
+  {
+    "id": "tree_003",
+    "category": "tree",
+    "name": "凤凰木",
+    "latin": "Delonix regia",
+    "family": "豆科",
+    "genus": "凤凰木属",
+    "morphology": {
+      "leaf": "二回偶数羽状复叶，长20-60cm，小叶细小，长椭圆形，长约8mm，薄纸质",
+      "flower": "总状花序伞房状，花大，鲜红色至橙红色，径7-10cm，花瓣5枚，花期5-7月",
+      "fruit": "荚果带状，扁平，长30-60cm，木质，熟时黑褐色，果期10-12月",
+      "bark": "树皮灰褐色，较粗糙，幼时光滑"
+    },
+    "growth_habit": "落叶乔木，生长迅速，树冠广阔如伞，枝条平展，花期极为壮观",
+    "suitable_environment": "喜高温，耐热耐旱，不耐寒；喜光，适生于排水良好的沙质壤土；抗风能力较强",
+    "common_pests": ["pest_001", "pest_002", "pest_011", "pest_006"],
+    "maintenance": {
+      "pruning_cycle": "花后及冬季落叶期修剪，疏除过密枝、交叉枝；幼树注意整形",
+      "fertilization": "花前施磷钾肥促进开花，每株0.3-0.5kg；秋季施有机肥",
+      "watering": "耐旱性较强，生长期保持适当水分，忌积水"
+    }
+  },
+  {
+    "id": "tree_004",
+    "category": "tree",
+    "name": "木棉",
+    "latin": "Bombax ceiba",
+    "family": "木棉科",
+    "genus": "木棉属",
+    "morphology": {
+      "leaf": "掌状复叶，小叶5-7枚，长椭圆形，长10-20cm，全缘，叶柄长",
+      "flower": "花单生，红色或橙红色，径约10cm，先叶开放，花期2-4月",
+      "fruit": "蒴果长圆形，木质，长10-15cm，内有多数棉毛种子，果期5-6月",
+      "bark": "树皮灰白色，幼树树干有圆锥状皮刺，老树皮刺渐脱落"
+    },
+    "growth_habit": "落叶大乔木，生长迅速，主干通直，分枝轮生呈水平开展，树姿挺拔",
+    "suitable_environment": "喜光，耐旱，耐热；不择土壤，以深厚肥沃的沙质壤土为宜；不耐寒，抗风力强",
+    "common_pests": ["pest_001", "pest_006", "pest_018", "pest_011"],
+    "maintenance": {
+      "pruning_cycle": "冬季落叶后修剪，去除枯枝、病虫枝，培养主干；注意幼树防倒伏",
+      "fertilization": "春季萌芽前施复合肥，秋冬季施有机肥",
+      "watering": "耐旱，大树基本不需浇水；新栽第1年保持适度水分"
+    }
+  },
+  {
+    "id": "tree_005",
+    "category": "tree",
+    "name": "大叶紫薇",
+    "latin": "Lagerstroemia speciosa",
+    "family": "千屈菜科",
+    "genus": "紫薇属",
+    "morphology": {
+      "leaf": "叶大，椭圆形至长椭圆形，长10-25cm，先端钝或短尖，全缘，革质",
+      "flower": "圆锥花序顶生，长达20-40cm，花淡紫色至紫色，径5-7cm，花期5-8月",
+      "fruit": "蒴果球形至椭圆形，径约2cm，熟时褐色，果期9-11月",
+      "bark": "树皮灰褐色，平滑，薄片状剥落"
+    },
+    "growth_habit": "落叶乔木，生长中等，树冠圆伞形，花繁色艳，花期长",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；对土壤要求不严，耐旱，稍耐涝",
+    "common_pests": ["pest_001", "pest_012", "pest_013", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "冬季落叶后重剪，保留主干和主枝，促发新枝开花",
+      "fertilization": "春季萌芽期和花前各追肥1次，以复合肥为主",
+      "watering": "生长期保持土壤湿润，干旱季节每5-7天浇水1次"
+    }
+  },
+  {
+    "id": "tree_006",
+    "category": "tree",
+    "name": "黄花风铃木",
+    "latin": "Handroanthus chrysanthus",
+    "family": "紫葳科",
+    "genus": "风铃木属",
+    "morphology": {
+      "leaf": "掌状复叶，小叶5枚，卵状椭圆形，长8-15cm，边缘有锯齿，厚纸质",
+      "flower": "圆锥花序顶生，花鲜黄色，喇叭形，长5-8cm，先叶开放，花期3-4月",
+      "fruit": "蒴果圆柱形，长20-40cm，表面有毛，种子有翅",
+      "bark": "树皮灰褐色，纵裂，较粗糙"
+    },
+    "growth_habit": "落叶乔木，生长速度中等，树冠开展，花期极为绚烂",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于排水良好的沙质壤土；耐热，不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪，去除枯枝；幼树注意塑形，培养优良树冠",
+      "fertilization": "花前施磷钾肥促进花芽分化，每年春、秋各施1次",
+      "watering": "耐旱性中等，生长期保持适度湿润，忌积水"
+    }
+  },
+  {
+    "id": "tree_007",
+    "category": "tree",
+    "name": "蓝花楹",
+    "latin": "Jacaranda mimosifolia",
+    "family": "紫葳科",
+    "genus": "蓝花楹属",
+    "morphology": {
+      "leaf": "二回羽状复叶，羽片16对以上，小叶细小，椭圆形，长约1cm，薄纸质",
+      "flower": "圆锥花序顶生，花冠蓝色至紫蓝色，长5-7cm，花期4-6月",
+      "fruit": "蒴果近圆形，扁平，径约5cm，木质，种子有翅",
+      "bark": "树皮灰褐色，较平滑，老树薄片状剥落"
+    },
+    "growth_habit": "落叶乔木，生长中等，树冠宽大伞形，枝叶纤细柔美",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于肥沃排水良好的土壤；耐热，不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "冬季落叶后修剪，去除过密枝、枯枝；幼树注意主干培养",
+      "fertilization": "每年春初施复合肥，花后追施磷钾肥",
+      "watering": "幼树期保持土壤湿润，成树较耐旱，干旱时适当补水"
+    }
+  },
+  {
+    "id": "tree_008",
+    "category": "tree",
+    "name": "鸡蛋花",
+    "latin": "Plumeria rubra",
+    "family": "夹竹桃科",
+    "genus": "鸡蛋花属",
+    "morphology": {
+      "leaf": "叶大，长椭圆形至倒卵形，长20-40cm，厚纸质，多聚生枝顶",
+      "flower": "聚伞花序顶生，花冠漏斗形，白色中心黄色或粉红色，径5-7cm，芳香，花期5-10月",
+      "fruit": "蓇葖果双生，长圆筒形，长10-20cm，种子多数有翅",
+      "bark": "枝干粗壮肉质，灰白色，分枝有明显叶痕，树皮平滑"
+    },
+    "growth_habit": "落叶小乔木，枝干肉质，树形独特，生长缓慢，花期长",
+    "suitable_environment": "喜光，喜高温高湿气候；适生于排水良好的沙质壤土；耐旱，不耐寒，忌水涝",
+    "common_pests": ["pest_001", "pest_002", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "冬季落叶后轻度修剪，去除枯枝、病虫枝；慎重大剪，伤口易感染",
+      "fertilization": "生长期每月施薄肥；花期增施磷钾肥",
+      "watering": "耐旱，盆土干透再浇；地栽干旱时每周浇1次，忌积水"
+    }
+  },
+  {
+    "id": "tree_009",
+    "category": "tree",
+    "name": "火焰木",
+    "latin": "Spathodea campanulata",
+    "family": "紫葳科",
+    "genus": "火焰木属",
+    "morphology": {
+      "leaf": "奇数羽状复叶，小叶9-19枚，椭圆形至卵形，长5-15cm，全缘",
+      "flower": "总状花序顶生，花鲜红色，杯状，边缘金黄色，径10-12cm，花期4-8月",
+      "fruit": "蒴果长披针形，长15-25cm，种子多数有翅",
+      "bark": "树皮灰褐色，平滑至浅纵裂"
+    },
+    "growth_habit": "常绿乔木，生长迅速，树冠圆球形，花期长，花量多且鲜艳",
+    "suitable_environment": "喜光，喜高温高湿气候；适生于深厚肥沃的酸性土壤；耐热，不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪残花枝，冬季去除枯枝、内向枝；注意控制高度",
+      "fertilization": "春季施复合肥，夏秋每2月追肥1次",
+      "watering": "生长期保持充足水分，干旱季节每周浇水1-2次"
+    }
+  },
+  {
+    "id": "tree_010",
+    "category": "tree",
+    "name": "白兰",
+    "latin": "Michelia × alba",
+    "family": "木兰科",
+    "genus": "含笑属",
+    "morphology": {
+      "leaf": "叶长椭圆形至披针形，长10-25cm，先端长渐尖，全缘，薄革质，有光泽",
+      "flower": "花单生叶腋，白色或略带黄色，长3-4cm，极芳香，花期4-10月",
+      "fruit": "聚合蓇葖果，通常不结实",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿乔木，生长速度中等，树冠长卵形，枝叶繁茂",
+    "suitable_environment": "喜光，稍耐半荫；喜温暖湿润气候；适生于肥沃、排水良好的微酸性土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_012", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "春季萌芽前修剪过密枝、枯枝；花后轻剪促进新枝萌发",
+      "fertilization": "春末夏初每2个月施复合肥1次，秋季施有机肥",
+      "watering": "喜湿润，生长期保持土壤湿润，干旱季节每周浇水2次"
+    }
+  },
+  {
+    "id": "tree_011",
+    "category": "tree",
+    "name": "小叶榄仁",
+    "latin": "Terminalia neotaliala",
+    "family": "使君子科",
+    "genus": "榄仁属",
+    "morphology": {
+      "leaf": "叶倒卵形，长约3-5cm，先端圆或微凹，全缘，薄革质，冬季变红落叶",
+      "flower": "穗状花序腋生，花小，白色，花期3-4月",
+      "fruit": "核果椭圆形，长约1.5cm，熟时黄褐色",
+      "bark": "树皮灰褐色，老树纵裂，主干通直分枝呈轮生状排列"
+    },
+    "growth_habit": "落叶乔木，主干通直，分枝轮生平展，层次分明如同伞形台层，树姿优美",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于深厚沙质壤土；耐盐碱，耐热，抗风能力强",
+    "common_pests": ["pest_001", "pest_006", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "冬季落叶后修剪，保持台层式树形，疏除杂乱分枝",
+      "fertilization": "每年春季施复合肥1次，秋季施有机肥1次",
+      "watering": "耐旱性中等，新植需定期浇水，成树可靠自然降水"
+    }
+  },
+  {
+    "id": "tree_012",
+    "category": "tree",
+    "name": "秋枫",
+    "latin": "Bischofia javanica",
+    "family": "大戟科",
+    "genus": "秋枫属",
+    "morphology": {
+      "leaf": "三出复叶，小叶卵形至长椭圆形，长6-15cm，边缘有钝锯齿，薄革质",
+      "flower": "圆锥花序腋生，花小，绿色，花期4-5月",
+      "fruit": "浆果球形，径8-15mm，熟时红褐色至黑褐色",
+      "bark": "树皮灰褐色至红褐色，平滑或浅纵裂"
+    },
+    "growth_habit": "常绿乔木，生长迅速，树冠圆球形至宽卵形，枝叶繁茂",
+    "suitable_environment": "喜光，稍耐荫；喜温暖湿润气候；不择土壤，耐水湿，耐瘠薄",
+    "common_pests": ["pest_001", "pest_006", "pest_002", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "春季萌芽前整形修剪，去除枯枝、病弱枝，保持树形",
+      "fertilization": "种植初期施足基肥，每年追施复合肥1-2次",
+      "watering": "耐水湿，干旱时适当补水；台风季注意疏枝防倒"
+    }
+  },
+  {
+    "id": "tree_013",
+    "category": "tree",
+    "name": "异木棉",
+    "latin": "Ceiba speciosa",
+    "family": "木棉科",
+    "genus": "异木棉属",
+    "morphology": {
+      "leaf": "掌状复叶，小叶5-7枚，椭圆形，长8-12cm，边缘有锯齿",
+      "flower": "花单生或簇生，粉红色至淡紫红色，径10-15cm，花瓣5，花期9-12月",
+      "fruit": "蒴果椭圆形，长10-18cm，内有白色棉毛",
+      "bark": "树皮绿色，幼树有圆锥状皮刺，老树基部膨大如酒瓶状"
+    },
+    "growth_habit": "落叶乔木，生长迅速，树干基部膨大，树冠伞形，花期长，秋冬开花",
+    "suitable_environment": "喜光，喜高温湿润气候；适生于排水良好的沙质壤土；耐旱，不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_011"],
+    "maintenance": {
+      "pruning_cycle": "冬季落叶后修剪，去除枯枝、过密枝，保持树形通透",
+      "fertilization": "花前施磷钾肥，入秋施有机肥",
+      "watering": "耐旱性强，大树较少浇水；幼树保持土壤湿润"
+    }
+  },
+  {
+    "id": "tree_014",
+    "category": "tree",
+    "name": "紫荆",
+    "latin": "Bauhinia × blakeana",
+    "family": "豆科",
+    "genus": "羊蹄甲属",
+    "morphology": {
+      "leaf": "叶阔心形或近圆形，先端二裂达叶长1/3-1/2，形似羊蹄，革质",
+      "flower": "总状花序，花大，紫红色至粉红色，径10-15cm，花期11月至翌年4月",
+      "fruit": "通常不结实",
+      "bark": "树皮灰褐色，较平滑"
+    },
+    "growth_habit": "常绿乔木，生长中等，树冠开展宽大，花期极长，为香港区花",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于肥沃排水良好的土壤；耐热，不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_013", "pest_006"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪，疏除老弱枝、过密枝，促进新枝萌发",
+      "fertilization": "花前施磷钾肥1次，夏季追施复合肥",
+      "watering": "生长期保持土壤湿润，干旱季节每周浇水1-2次"
+    }
+  },
+  {
+    "id": "tree_015",
+    "category": "tree",
+    "name": "大王椰子",
+    "latin": "Roystonea regia",
+    "family": "棕榈科",
+    "genus": "大王椰子属",
+    "morphology": {
+      "leaf": "羽状复叶，长3-5m，小叶线状披针形，排列整齐，绿色有光泽",
+      "flower": "肉穗花序生于叶鞘下，花小，乳白色，花期4-6月",
+      "fruit": "核果近球形，径约1.2cm，熟时紫红色",
+      "bark": "树干单生，灰白色，光滑，中部膨大，有明显环状叶痕"
+    },
+    "growth_habit": "常绿乔木，单干直立，生长较快，树姿雄伟挺拔，具热带风情",
+    "suitable_environment": "喜光，喜高温多湿气候；适生于深厚肥沃的微酸性土壤；耐热，不耐寒",
+    "common_pests": ["pest_002", "pest_003", "pest_014"],
+    "maintenance": {
+      "pruning_cycle": "及时剪除枯黄老叶，每年2-3次清除残叶叶鞘",
+      "fertilization": "春夏每2个月施有机肥或复合肥，大树每株0.5-1kg",
+      "watering": "喜湿，生长期保持土壤湿润，干旱季节每周浇水2次"
+    }
+  },
+  {
+    "id": "tree_016",
+    "category": "tree",
+    "name": "狐尾椰子",
+    "latin": "Wodyetia bifurcata",
+    "family": "棕榈科",
+    "genus": "狐尾椰子属",
+    "morphology": {
+      "leaf": "羽状复叶，小叶辐射状排列似狐尾，长2-3m，深绿色",
+      "flower": "肉穗花序腋生，花小，白色至奶油色",
+      "fruit": "核果椭圆形，长约5cm，熟时橙红色至鲜红色",
+      "bark": "树干单生，灰白色，有环状叶痕，基部稍膨大"
+    },
+    "growth_habit": "常绿乔木，生长中等，树形优美，叶似狐尾极具观赏性",
+    "suitable_environment": "喜光，喜高温多湿；适生于排水良好的沙质壤土；耐盐雾，不耐寒",
+    "common_pests": ["pest_002", "pest_003", "pest_014"],
+    "maintenance": {
+      "pruning_cycle": "剪除枯黄老叶，保留足够功能叶，每年修剪1-2次",
+      "fertilization": "春夏季每2个月施专类棕榈肥或复合肥",
+      "watering": "保持土壤湿润，干旱季节加大浇水频次"
+    }
+  },
+  {
+    "id": "tree_017",
+    "category": "tree",
+    "name": "蒲葵",
+    "latin": "Livistona chinensis",
+    "family": "棕榈科",
+    "genus": "蒲葵属",
+    "morphology": {
+      "leaf": "叶扇形，径1-1.5m，掌状深裂至中部，裂片线形，先端下垂",
+      "flower": "肉穗花序腋生，长达1m，花小，黄绿色，花期3-5月",
+      "fruit": "核果椭圆形，长约2cm，熟时黑褐色",
+      "bark": "树干单生，灰褐色，密被纤维状老叶鞘残留"
+    },
+    "growth_habit": "常绿乔木，生长较慢，叶片宽大，树形古朴优美",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；适生于深厚肥沃的土壤；耐热，较耐寒",
+    "common_pests": ["pest_002", "pest_003", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "及时剪除枯黄老叶，春季清除枯落叶梗",
+      "fertilization": "春夏各施有机肥或复合肥1次",
+      "watering": "较耐旱，干旱季节每月浇水2-3次"
+    }
+  },
+  {
+    "id": "tree_018",
+    "category": "tree",
+    "name": "桂花",
+    "latin": "Osmanthus fragrans",
+    "family": "木犀科",
+    "genus": "木犀属",
+    "morphology": {
+      "leaf": "叶对生，椭圆形至长椭圆形，长5-12cm，边缘有细锯齿或全缘，革质，有光泽",
+      "flower": "聚伞花序簇生叶腋，花小，乳白色、淡黄色或橙黄色，极芳香，花期9-10月",
+      "fruit": "核果椭圆形，长1-1.5cm，熟时紫黑色",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿小乔木或灌木，生长缓慢，枝叶繁茂，花香浓郁",
+    "suitable_environment": "喜光，稍耐半荫；喜温暖湿润气候；适生于肥沃、排水良好的微酸性土壤；不耐烟尘",
+    "common_pests": ["pest_001", "pest_002", "pest_011", "pest_012", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "花后轻剪，疏除过密枝、病虫枝；春季萌芽前去除徒长枝",
+      "fertilization": "花后施磷钾肥，春季施有机肥或复合肥",
+      "watering": "喜湿润怕涝，生长期保持土壤湿润，雨季注意排水"
+    }
+  },
+  {
+    "id": "tree_019",
+    "category": "tree",
+    "name": "山茶",
+    "latin": "Camellia japonica",
+    "family": "山茶科",
+    "genus": "山茶属",
+    "morphology": {
+      "leaf": "叶互生，椭圆形至卵形，长5-12cm，边缘有细锯齿，厚革质，深绿色有光泽",
+      "flower": "花单生或对生枝顶，红色、白色或粉色，径5-12cm，花瓣多数，花期1-4月",
+      "fruit": "蒴果近球形，径2-3cm，木质",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿灌木或小乔木，生长缓慢，寿命长，花大色艳",
+    "suitable_environment": "喜半荫，忌强光直射；喜温暖湿润气候；适生于酸性、肥沃、排水良好的土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_011", "pest_012", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后轻剪，疏除过密枝、徒长枝，不宜重剪",
+      "fertilization": "花后施酸性肥料，秋季施磷钾肥促进花芽分化",
+      "watering": "保持土壤湿润，忌积水，夏季多喷叶面水增加湿度"
+    }
+  },
+  {
+    "id": "tree_020",
+    "category": "tree",
+    "name": "杜鹃",
+    "latin": "Rhododendron simsii",
+    "family": "杜鹃花科",
+    "genus": "杜鹃花属",
+    "morphology": {
+      "leaf": "叶互生，椭圆形至卵状披针形，长2-6cm，全缘，薄革质，表面有糙伏毛",
+      "flower": "花2-6朵簇生枝顶，花冠漏斗形，红色、粉红色或白色，径4-6cm，花期3-5月",
+      "fruit": "蒴果卵圆形，长约1cm",
+      "bark": "枝干细密，灰褐色，幼枝有褐色糙伏毛"
+    },
+    "growth_habit": "常绿或半落叶灌木，分枝细密，花繁叶茂",
+    "suitable_environment": "喜半荫，忌暴晒；喜凉爽湿润气候；适生于酸性、疏松、富含腐殖质的土壤；不耐碱",
+    "common_pests": ["pest_001", "pest_003", "pest_011", "pest_012", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后及时修剪残花，疏除过密枝；入秋后不修剪以免影响花芽",
+      "fertilization": "花后施酸性肥，秋季施磷钾肥，忌施碱性肥",
+      "watering": "喜湿润，忌干旱和积水，夏季常喷叶面水"
+    }
+  },
+  {
+    "id": "tree_021",
+    "category": "tree",
+    "name": "三角梅",
+    "latin": "Bougainvillea spectabilis",
+    "family": "紫茉莉科",
+    "genus": "叶子花属",
+    "morphology": {
+      "leaf": "叶互生，卵形至椭圆形，长4-13cm，全缘，纸质，有柔毛",
+      "flower": "花小，黄白色，3朵簇生，外有3枚大苞片，紫红色、粉红色、白色等，花期极长",
+      "fruit": "瘦果，具5棱，通常不结实",
+      "bark": "枝干有刺，灰褐色，攀援性或灌木状"
+    },
+    "growth_habit": "常绿攀援灌木或小乔木，生长迅速，花期极长，花色丰富",
+    "suitable_environment": "喜光，喜温暖湿润气候；不择土壤，耐瘠薄，耐旱；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "每次花后修剪，控制株形，促发新枝开花；可重剪造型",
+      "fertilization": "花前控水增施磷钾肥；生长期每月薄施复合肥1次",
+      "watering": "耐旱，适当控水可促进开花，雨季注意排水"
+    }
+  },
+  {
+    "id": "tree_022",
+    "category": "tree",
+    "name": "红千层",
+    "latin": "Callistemon viminalis",
+    "family": "桃金娘科",
+    "genus": "红千层属",
+    "morphology": {
+      "leaf": "叶互生，线形至狭披针形，长3-8cm，革质，揉之有香味，嫩叶被柔毛",
+      "flower": "穗状花序腋生，似瓶刷状，鲜红色，长5-10cm，花期4-7月",
+      "fruit": "蒴果半球形，木质，宿存枝上数年不落",
+      "bark": "树皮灰褐色，纵裂，枝条细长柔软下垂"
+    },
+    "growth_habit": "常绿小乔木或灌木，枝条细长柔软下垂，花序瓶刷状甚为奇特",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于排水良好酸性土壤；耐旱，耐热，耐瘠薄",
+    "common_pests": ["pest_001", "pest_002", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪残花序，适当疏枝保持树形通透",
+      "fertilization": "春季施复合肥，花后追肥1次",
+      "watering": "耐旱，干旱季节每月浇水2-3次"
+    }
+  },
+  {
+    "id": "tree_023",
+    "category": "tree",
+    "name": "假连翘",
+    "latin": "Duranta erecta",
+    "family": "马鞭草科",
+    "genus": "假连翘属",
+    "morphology": {
+      "leaf": "叶对生，卵形至卵状椭圆形，长2-7cm，边缘有锯齿，薄纸质",
+      "flower": "总状花序腋生或顶生，花蓝紫色，花冠5裂，花期4-11月",
+      "fruit": "核果球形，径约5mm，熟时橙黄色，有光泽",
+      "bark": "枝四棱形，有短刺，黄褐色"
+    },
+    "growth_habit": "常绿灌木，生长迅速，花期长，可作绿篱或造型植物",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；不择土壤，耐修剪，较耐旱",
+    "common_pests": ["pest_001", "pest_002", "pest_004"],
+    "maintenance": {
+      "pruning_cycle": "生长期每月修剪1-2次保持绿篱造型；花后统一修剪",
+      "fertilization": "修剪后追施复合肥促进新枝萌发",
+      "watering": "较耐旱，绿篱保持土壤湿润即可"
+    }
+  },
+  {
+    "id": "tree_024",
+    "category": "tree",
+    "name": "灰莉",
+    "latin": "Fagraea ceilanica",
+    "family": "马钱科",
+    "genus": "灰莉属",
+    "morphology": {
+      "leaf": "叶对生，椭圆形至倒卵形，长5-15cm，全缘，厚革质，深绿色有光泽",
+      "flower": "聚伞花序顶生，花白色，花冠漏斗形，长3-5cm，芳香，花期4-8月",
+      "fruit": "浆果近球形，径1-1.5cm，熟时橙色",
+      "bark": "树皮灰褐色，较平滑"
+    },
+    "growth_habit": "常绿灌木或小乔木，枝叶浓密，叶色深绿光亮，生长中等",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；适生于深厚肥沃的酸性土壤；耐修剪",
+    "common_pests": ["pest_001", "pest_002", "pest_012", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "春季或花后修剪整形，生长期轻剪控制形状",
+      "fertilization": "春夏季每2个月施复合肥1次，秋冬施有机肥",
+      "watering": "保持土壤湿润，干旱季节每周浇水1-2次"
+    }
+  },
+  {
+    "id": "tree_025",
+    "category": "tree",
+    "name": "朱槿",
+    "latin": "Hibiscus rosa-sinensis",
+    "family": "锦葵科",
+    "genus": "木槿属",
+    "morphology": {
+      "leaf": "叶互生，阔卵形至狭卵形，长4-10cm，边缘有粗锯齿，深绿色有光泽",
+      "flower": "花单生叶腋，鲜红色，径6-12cm，花瓣5，花柱突出，全年可开花",
+      "fruit": "蒴果卵圆形，长约2.5cm，室内栽培常不结实",
+      "bark": "小枝圆柱形，灰褐色"
+    },
+    "growth_habit": "常绿灌木，生长迅速，花期几乎全年，花色丰富",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于肥沃排水良好的土壤；不耐寒，耐热",
+    "common_pests": ["pest_001", "pest_003", "pest_004", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪，早春重剪促发新枝；可随时修剪控制高度",
+      "fertilization": "生长期每月施磷钾含量较高的复合肥1次",
+      "watering": "生长期保持土壤湿润，干旱时勤浇水"
+    }
+  },
+  {
+    "id": "tree_026",
+    "category": "tree",
+    "name": "龙船花",
+    "latin": "Ixora chinensis",
+    "family": "茜草科",
+    "genus": "龙船花属",
+    "morphology": {
+      "leaf": "叶对生，椭圆状披针形至倒卵形，长6-13cm，全缘，薄革质",
+      "flower": "伞房花序顶生，花红色或橙红色，花冠高脚碟状，花期5-10月",
+      "fruit": "浆果近球形，径约7mm，熟时紫红色",
+      "bark": "枝干灰褐色，平滑"
+    },
+    "growth_habit": "常绿灌木，生长中等，花期长，花团锦簇",
+    "suitable_environment": "喜光，稍耐半荫；喜温暖湿润气候；适生于酸性肥沃壤土；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_012", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪残花序，轻剪整形；冬季疏除老弱枝",
+      "fertilization": "生长期每月施酸性液肥；花前增施磷钾肥",
+      "watering": "保持土壤湿润，夏季勤浇水，忌干旱"
+    }
+  },
+  {
+    "id": "tree_027",
+    "category": "tree",
+    "name": "海南红豆",
+    "latin": "Ormosia pinnata",
+    "family": "豆科",
+    "genus": "红豆属",
+    "morphology": {
+      "leaf": "奇数羽状复叶，小叶7-9枚，长椭圆形，长5-15cm，全缘，薄革质",
+      "flower": "圆锥花序顶生或腋生，花白色或淡粉红色，花期6-7月",
+      "fruit": "荚果扁，菱形，木质，长3-5cm，种子近圆形，红色，果期10-12月",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿乔木，生长速度中等，树冠圆球形，枝叶翠绿",
+    "suitable_environment": "喜光，稍耐荫；喜温暖湿润气候；适生于深厚肥沃的酸性土壤；耐热",
+    "common_pests": ["pest_001", "pest_006", "pest_013", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "春季萌芽前修剪，疏除过密枝、枯枝，保持树形",
+      "fertilization": "每年春季施复合肥1次，秋季施有机肥",
+      "watering": "保持土壤湿润，干旱时适当补水"
+    }
+  },
+  {
+    "id": "tree_028",
+    "category": "tree",
+    "name": "黄槐",
+    "latin": "Senna surattensis",
+    "family": "豆科",
+    "genus": "决明属",
+    "morphology": {
+      "leaf": "偶数羽状复叶，小叶7-9对，长椭圆形至卵形，长2-5cm，先端圆钝",
+      "flower": "总状花序腋生，花黄色，径2-3cm，花期几乎全年",
+      "fruit": "荚果扁平，带状，长8-12cm",
+      "bark": "树皮灰褐色，较平滑"
+    },
+    "growth_habit": "常绿小乔木或灌木，花期极长，几乎全年开花，生长迅速",
+    "suitable_environment": "喜光，喜温暖湿润气候；不择土壤，耐旱，耐瘠薄；不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "每年花后或冬季修剪1-2次，控制高度和株形",
+      "fertilization": "生长期每2个月施复合肥1次",
+      "watering": "耐旱，干旱季节每月浇水1-2次"
+    }
+  },
+  {
+    "id": "tree_029",
+    "category": "tree",
+    "name": "散尾葵",
+    "latin": "Dypsis lutescens",
+    "family": "棕榈科",
+    "genus": "散尾葵属",
+    "morphology": {
+      "leaf": "羽状全裂，长达2m，裂片线形，柔软下垂，黄绿色至深绿色",
+      "flower": "圆锥花序腋生，长0.6-1m，花小，金黄色",
+      "fruit": "核果近球形，径约1.5cm，熟时紫黑色",
+      "bark": "茎秆丛生，黄绿色至金黄色，有环状叶痕，形似竹节"
+    },
+    "growth_habit": "常绿丛生灌木状，茎秆丛生如竹，叶姿飘逸，极具热带风情",
+    "suitable_environment": "耐半荫，忌强光直射；喜温暖湿润气候；适生于疏松肥沃的土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_003", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "及时剪除枯黄叶和衰老茎秆，保持株形通透",
+      "fertilization": "春夏生长期每1-2个月施复合肥1次",
+      "watering": "喜湿，保持土壤湿润，夏季常喷水增加空气湿度"
+    }
+  },
+  {
+    "id": "tree_030",
+    "category": "tree",
+    "name": "旅人蕉",
+    "latin": "Ravenala madagascariensis",
+    "family": "鹤望兰科",
+    "genus": "旅人蕉属",
+    "morphology": {
+      "leaf": "叶大型，长椭圆形，似芭蕉叶，长2-3m，排成扇形，叶柄长",
+      "flower": "花序腋生，大形，有船形苞片，花白色，花期6-8月",
+      "fruit": "蒴果木质，种子蓝色",
+      "bark": "树干棕褐色，叶柄基部抱茎成假茎"
+    },
+    "growth_habit": "常绿乔木状，叶排列成巨大扇形，株形别致，极具热带风情",
+    "suitable_environment": "喜光，喜高温多湿气候；适生于深厚肥沃的土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "及时剪除枯黄老叶，保持扇形株姿",
+      "fertilization": "春夏季每月施复合肥或有机液肥",
+      "watering": "生长期需大量水分，保持土壤湿润，不可缺水"
+    }
+  },
+  {
+    "id": "tree_031",
+    "category": "tree",
+    "name": "红车木",
+    "latin": "Syzygium hancei",
+    "family": "桃金娘科",
+    "genus": "蒲桃属",
+    "morphology": {
+      "leaf": "叶对生，椭圆形至倒卵形，长4-12cm，全缘，革质，嫩叶鲜红色",
+      "flower": "聚伞花序腋生或顶生，花小，白色，花期5-7月",
+      "fruit": "浆果椭圆形，长约1cm，熟时紫黑色",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿灌木或小乔木，新叶红艳亮丽，生长适中",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；适生于酸性土壤；耐修剪",
+    "common_pests": ["pest_001", "pest_002", "pest_013", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "生长期及时修剪促发红色新叶；每年修剪2-3次",
+      "fertilization": "修剪后追施氮钾复合肥，促进新叶萌发红艳",
+      "watering": "保持土壤湿润，干旱时及时浇水"
+    }
+  },
+  {
+    "id": "tree_032",
+    "category": "tree",
+    "name": "紫薇",
+    "latin": "Lagerstroemia indica",
+    "family": "千屈菜科",
+    "genus": "紫薇属",
+    "morphology": {
+      "leaf": "叶对生或近对生，椭圆形至倒卵形，长2-7cm，全缘，薄革质",
+      "flower": "圆锥花序顶生，花红色、粉红色、紫色或白色，径3-4cm，花期6-9月",
+      "fruit": "蒴果椭圆形，长约1cm，熟时褐色",
+      "bark": "树皮灰褐色，平滑，薄片状剥落后树干光滑"
+    },
+    "growth_habit": "落叶灌木或小乔木，花期长达百日，树皮光滑如无皮",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；不择土壤，耐旱，较耐寒",
+    "common_pests": ["pest_001", "pest_012", "pest_013", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "冬季落叶后重剪，保留主枝，促发新枝开花",
+      "fertilization": "春季萌芽期和花前各追施复合肥1次",
+      "watering": "生长期保持土壤湿润，干旱季节每5-7天浇水1次"
+    }
+  },
+  {
+    "id": "tree_033",
+    "category": "tree",
+    "name": "鸭脚木",
+    "latin": "Schefflera heptaphylla",
+    "family": "五加科",
+    "genus": "鹅掌柴属",
+    "morphology": {
+      "leaf": "掌状复叶，小叶6-10枚，椭圆形至倒卵状长圆形，长7-17cm，全缘，革质，有光泽",
+      "flower": "圆锥花序顶生，花小，白色，花期11-12月",
+      "fruit": "核果球形，径约5mm，熟时紫黑色",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿乔木或灌木，生长迅速，枝叶繁茂，适应性强",
+    "suitable_environment": "喜半荫，忌强光；喜温暖湿润气候；不择土壤，耐瘠薄",
+    "common_pests": ["pest_001", "pest_002", "pest_003", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "春季修剪过密枝，控制株形大小",
+      "fertilization": "春夏季每2个月施复合肥1次",
+      "watering": "保持土壤湿润，耐旱性较强，忌积水"
+    }
+  },
+  {
+    "id": "tree_034",
+    "category": "tree",
+    "name": "人面子",
+    "latin": "Dracontomelon duperreanum",
+    "family": "漆树科",
+    "genus": "人面子属",
+    "morphology": {
+      "leaf": "奇数羽状复叶，小叶11-17枚，长椭圆形，长5-14cm，全缘",
+      "flower": "圆锥花序腋生，花小，白色，花期5-6月",
+      "fruit": "核果球形，径约2cm，熟时黄色，可食",
+      "bark": "树皮灰褐色，平滑至浅纵裂"
+    },
+    "growth_habit": "常绿乔木，生长中等，树冠浓密圆形，为优良行道树",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于深厚肥沃酸性土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013", "pest_011"],
+    "maintenance": {
+      "pruning_cycle": "春季修剪枯枝、过密枝，保持树冠通透",
+      "fertilization": "每年施复合肥1-2次",
+      "watering": "保持土壤湿润，干旱季节适当补水"
+    }
+  },
+  {
+    "id": "tree_035",
+    "category": "tree",
+    "name": "水石榕",
+    "latin": "Elaeocarpus hainanensis",
+    "family": "杜英科",
+    "genus": "杜英属",
+    "morphology": {
+      "leaf": "叶互生，狭披针形至倒披针形，长7-15cm，边缘有细锯齿",
+      "flower": "总状花序腋生，花白色，花瓣撕裂状，花期5-7月",
+      "fruit": "核果椭圆形，长约2-3cm，熟时蓝紫色",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿小乔木，花期繁茂，花瓣细裂似流苏状，喜水湿",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；喜水湿，适生于水边湿地；不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪，去除枯枝过密枝",
+      "fertilization": "春季萌芽前施复合肥，花后追肥",
+      "watering": "喜水湿，保持土壤湿润，可近水种植"
+    }
+  },
+  {
+    "id": "tree_036",
+    "category": "tree",
+    "name": "黄金香柳",
+    "latin": "Melaleuca bracteata 'Revolution Gold'",
+    "family": "桃金娘科",
+    "genus": "白千层属",
+    "morphology": {
+      "leaf": "叶互生，披针形至线形，长约2-4cm，新叶金黄色，老叶黄绿色，揉之有香味",
+      "flower": "穗状花序腋生，白色，形似瓶刷，花期春至夏季",
+      "fruit": "蒴果半球形，木质",
+      "bark": "树皮灰白色，纸质，多层剥落"
+    },
+    "growth_habit": "常绿小乔木或灌木，叶色金黄亮丽，全年彩叶，生长中速",
+    "suitable_environment": "喜光，光照充足时叶色金黄；喜温暖湿润气候；耐旱，耐热，耐修剪",
+    "common_pests": ["pest_001", "pest_002", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "生长期轻剪促发金黄新叶，每年整形2-3次",
+      "fertilization": "春季和秋季各施复合肥1次，促进叶色",
+      "watering": "耐旱性强，干旱季节适当补水"
+    }
+  },
+  {
+    "id": "tree_037",
+    "category": "tree",
+    "name": "幌伞枫",
+    "latin": "Heteropanax fragrans",
+    "family": "五加科",
+    "genus": "幌伞枫属",
+    "morphology": {
+      "leaf": "三至五回羽状复叶，大而开展，长达1m以上，小叶椭圆形",
+      "flower": "圆锥花序顶生，花小，淡黄色，花期10-12月",
+      "fruit": "核果扁球形，径约5mm，熟时黑色",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿乔木，主干通直，叶片大而开展如伞盖，树形优美",
+    "suitable_environment": "喜半荫，忌强光；喜温暖湿润气候；适生于肥沃湿润的土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_003"],
+    "maintenance": {
+      "pruning_cycle": "幼树注意培养主干，剪除下部侧枝；大树疏除过密叶",
+      "fertilization": "春夏季每2个月施有机肥或复合肥",
+      "watering": "保持土壤湿润，干旱时及时浇水"
+    }
+  },
+  {
+    "id": "tree_038",
+    "category": "tree",
+    "name": "扁桃",
+    "latin": "Mangifera persiciformis",
+    "family": "漆树科",
+    "genus": "芒果属",
+    "morphology": {
+      "leaf": "叶互生，长椭圆形至披针形，长10-25cm，全缘，革质，嫩叶紫红色",
+      "flower": "圆锥花序顶生，花小，淡黄色，花期3-4月",
+      "fruit": "核果肉质，椭圆形，长约5cm，熟时黄色",
+      "bark": "树皮灰褐色，纵裂"
+    },
+    "growth_habit": "常绿乔木，生长较快，树冠球形至伞形，优良行道树",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于深厚肥沃的微酸性土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013", "pest_011"],
+    "maintenance": {
+      "pruning_cycle": "春季萌芽前整形修剪，梳理内膛枝",
+      "fertilization": "春季施复合肥，秋冬施有机肥",
+      "watering": "幼树保持土壤湿润，大树耐旱，干旱时补水"
+    }
+  },
+  {
+    "id": "tree_039",
+    "category": "tree",
+    "name": "铁刀木",
+    "latin": "Senna siamea",
+    "family": "豆科",
+    "genus": "决明属",
+    "morphology": {
+      "leaf": "偶数羽状复叶，小叶6-12对，长椭圆形，长4-7cm，先端钝",
+      "flower": "圆锥花序顶生，花黄色，径约3cm，花期7-12月",
+      "fruit": "荚果扁平，带状，长15-30cm",
+      "bark": "树皮灰褐色，纵裂，木材坚硬"
+    },
+    "growth_habit": "常绿乔木，生长迅速，材坚硬，花期长，抗逆性强",
+    "suitable_environment": "喜光，喜温暖湿润气候；不择土壤，耐旱，耐瘠薄；不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "冬季或花后修剪，去除枯枝、过密枝",
+      "fertilization": "每年春季施复合肥1次",
+      "watering": "耐旱，干旱季节适当补水"
+    }
+  },
+  {
+    "id": "tree_040",
+    "category": "tree",
+    "name": "栀子花",
+    "latin": "Gardenia jasminoides",
+    "family": "茜草科",
+    "genus": "栀子属",
+    "morphology": {
+      "leaf": "叶对生或3叶轮生，长椭圆形至倒卵状长圆形，长5-15cm，全缘，革质，有光泽",
+      "flower": "花单生枝顶，白色，高脚碟状，径5-8cm，浓香，花期5-7月",
+      "fruit": "浆果卵形至长椭圆形，长2-4cm，橙黄色，有棱",
+      "bark": "枝干灰褐色，平滑"
+    },
+    "growth_habit": "常绿灌木，生长中等，枝叶繁茂油亮，花洁白芳香",
+    "suitable_environment": "喜半荫，忌强光直射；喜温暖湿润气候；适生于酸性、肥沃、排水良好的土壤",
+    "common_pests": ["pest_001", "pest_002", "pest_012", "pest_011", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "花后轻剪，疏除过密枝、枯枝，不宜重剪",
+      "fertilization": "生长期每月施酸性液肥，花前施磷钾肥",
+      "watering": "保持土壤湿润，夏季常喷叶面水增湿"
+    }
+  },
+  {
+    "id": "tree_041",
+    "category": "tree",
+    "name": "米兰",
+    "latin": "Aglaia odorata",
+    "family": "楝科",
+    "genus": "米仔兰属",
+    "morphology": {
+      "leaf": "奇数羽状复叶，小叶3-5枚，倒卵形至长椭圆形，长2-7cm，革质，有光泽",
+      "flower": "圆锥花序腋生，花小如小米，球形，黄色，极芳香，花期5-12月",
+      "fruit": "浆果近球形，径约1cm，熟时红色",
+      "bark": "小枝灰褐色，有星状毛"
+    },
+    "growth_habit": "常绿灌木或小乔木，生长缓慢，自然分枝整齐，花期长，花香宜人",
+    "suitable_environment": "喜光，稍耐半荫；喜温暖湿润气候；适生于肥沃排水良好的微酸性土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_012", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "春季萌芽前适当修剪整形，不宜重剪",
+      "fertilization": "花前和生长期每月施复合肥1次",
+      "watering": "保持土壤湿润，忌积水，夏季常喷水"
+    }
+  },
+  {
+    "id": "tree_042",
+    "category": "tree",
+    "name": "夹竹桃",
+    "latin": "Nerium oleander",
+    "family": "夹竹桃科",
+    "genus": "夹竹桃属",
+    "morphology": {
+      "leaf": "叶3-4枚轮生，线状披针形至狭披针形，长10-20cm，全缘，厚革质",
+      "flower": "聚伞花序顶生，花红色、粉红色或白色，径4-5cm，花期几乎全年",
+      "fruit": "蓇葖果双生，圆柱形，长10-20cm",
+      "bark": "树皮灰褐色，枝条柔韧"
+    },
+    "growth_habit": "常绿灌木或小乔木，生长迅速，花期极长，抗污染能力强",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；不择土壤，耐旱，耐烟尘；全株有毒",
+    "common_pests": ["pest_001", "pest_002", "pest_003", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "每年早春重剪1次控制高度和株形，生长期可轻剪",
+      "fertilization": "生长期每2个月施复合肥1次",
+      "watering": "极耐旱，干旱季节每月浇水1-2次即可"
+    }
+  },
+  {
+    "id": "tree_043",
+    "category": "tree",
+    "name": "澳洲鸭脚木",
+    "latin": "Schefflera actinophylla",
+    "family": "五加科",
+    "genus": "鹅掌柴属",
+    "morphology": {
+      "leaf": "掌状复叶，小叶7-16枚，长椭圆形，长10-30cm，全缘，革质，深绿色有光泽",
+      "flower": "花序由多数辐射状排列的穗状花序组成，花小，红色，奇特，花期夏秋季",
+      "fruit": "核果近球形，熟时紫红色至黑色",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿乔木，生长迅速，枝叶层次分明，花序独特",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润；不择土壤，耐旱；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "春季修剪整形，控制株形，疏除过密枝",
+      "fertilization": "春夏季每2个月施复合肥",
+      "watering": "耐旱，生长期保持适度湿润即可"
+    }
+  },
+  {
+    "id": "tree_044",
+    "category": "tree",
+    "name": "黄花槐",
+    "latin": "Sophora xanthoantha",
+    "family": "豆科",
+    "genus": "槐属",
+    "morphology": {
+      "leaf": "羽状复叶，小叶15-25枚，卵状长圆形，长约2-4cm，嫩叶被柔毛",
+      "flower": "总状花序顶生，花金黄色，长约1.5cm，花期9-11月",
+      "fruit": "荚果串珠状，长5-8cm",
+      "bark": "树皮灰褐色，纵裂"
+    },
+    "growth_habit": "落叶灌木或小乔木，秋季开花，花色金黄醒目",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于沙质壤土；耐旱，耐瘠薄",
+    "common_pests": ["pest_001", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后或冬季落叶后修剪，疏除老枝促发新枝",
+      "fertilization": "春季施复合肥，花前施磷钾肥",
+      "watering": "耐旱，干旱季节适当补水"
+    }
+  },
+  {
+    "id": "tree_045",
+    "category": "tree",
+    "name": "红花羊蹄甲",
+    "latin": "Bauhinia × blakeana",
+    "family": "豆科",
+    "genus": "羊蹄甲属",
+    "morphology": {
+      "leaf": "叶近圆形或阔心形，先端二裂，裂片达叶长1/3-1/2，革质",
+      "flower": "总状花序，花大，紫红色，径10-15cm，芳香，花期11月至翌年4月",
+      "fruit": "通常不结实",
+      "bark": "树皮灰褐色，平滑"
+    },
+    "growth_habit": "常绿乔木，树冠开展，花期极长，是深圳秋冬主要观花树种",
+    "suitable_environment": "喜光，喜温暖湿润气候；适生于肥沃排水良好的土壤；耐热，不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪，疏除老弱枝、过密枝，促进新枝萌发和通风透光",
+      "fertilization": "花前施磷钾肥1次，夏季追施复合肥",
+      "watering": "生长期保持土壤湿润，干旱季节每周浇水1-2次"
+    }
+  },
+  {
+    "id": "tree_046",
+    "category": "tree",
+    "name": "翠芦莉",
+    "latin": "Ruellia simplex",
+    "family": "爵床科",
+    "genus": "芦莉草属",
+    "morphology": {
+      "leaf": "叶对生，线状披针形，长10-20cm，全缘或略有波状，深绿色",
+      "flower": "花单生或数朵簇生枝顶，蓝紫色，径约5cm，晨开午谢，花期5-11月",
+      "fruit": "蒴果长圆形，长约2cm",
+      "bark": "茎直立丛生，绿色或紫褐色"
+    },
+    "growth_habit": "多年生常绿草本至亚灌木，生长迅速，花期长，耐修剪",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；不择土壤，耐旱，耐湿",
+    "common_pests": ["pest_001", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "花后或冬季重剪至基部，促发新枝",
+      "fertilization": "修剪后追施复合肥，生长期每月薄施1次",
+      "watering": "保持土壤适度湿润，花期不可过干"
+    }
+  },
+  {
+    "id": "tree_047",
+    "category": "tree",
+    "name": "海桐",
+    "latin": "Pittosporum tobira",
+    "family": "海桐花科",
+    "genus": "海桐花属",
+    "morphology": {
+      "leaf": "叶互生，常聚生枝顶，倒卵形至倒披针形，长4-9cm，全缘，革质，有光泽",
+      "flower": "伞房花序顶生，花白色或淡黄色，后变黄色，径约1cm，芳香，花期4-6月",
+      "fruit": "蒴果球形，径约1.5cm，熟时3瓣裂，种子红色",
+      "bark": "小枝灰褐色，近轮生"
+    },
+    "growth_habit": "常绿灌木，枝叶浓密，耐修剪，是优良绿篱和造型植物",
+    "suitable_environment": "喜光，耐半荫；喜温暖湿润气候；不择土壤，耐盐碱，抗风",
+    "common_pests": ["pest_001", "pest_002", "pest_012", "pest_018"],
+    "maintenance": {
+      "pruning_cycle": "绿篱每月修剪1次保持造型；孤植树花后轻剪",
+      "fertilization": "春季和修剪后施复合肥",
+      "watering": "保持土壤湿润即可，较耐旱"
+    }
+  },
+  {
+    "id": "tree_048",
+    "category": "tree",
+    "name": "银叶金合欢",
+    "latin": "Acacia podalyriifolia",
+    "family": "豆科",
+    "genus": "金合欢属",
+    "morphology": {
+      "leaf": "幼树二回羽状复叶，成树叶片退化为叶状柄，椭圆形，银灰色至银绿色，被白粉",
+      "flower": "头状花序球形，鲜黄色，径约6mm，芳香，花期2-4月",
+      "fruit": "荚果扁平，带状，长3-8cm，熟时褐色",
+      "bark": "树皮灰褐色，枝干银白色"
+    },
+    "growth_habit": "常绿小乔木，叶色银灰独特，花期金黄满树，生长迅速",
+    "suitable_environment": "喜光，喜温暖气候；耐旱，耐瘠薄；不耐寒",
+    "common_pests": ["pest_001", "pest_006", "pest_013"],
+    "maintenance": {
+      "pruning_cycle": "花后修剪，控制树形，促发新枝",
+      "fertilization": "春季和花后各施复合肥1次",
+      "watering": "极耐旱，盆栽或新植保持适度水分"
+    }
+  },
+  {
+    "id": "tree_049",
+    "category": "tree",
+    "name": "巴西野牡丹",
+    "latin": "Tibouchina urvilleana",
+    "family": "野牡丹科",
+    "genus": "蒂牡花属",
+    "morphology": {
+      "leaf": "叶对生，卵形至卵状披针形，长4-10cm，被绒毛，有3-5条纵脉",
+      "flower": "花顶生或腋生，蓝紫色至紫色，径5-8cm，花期5-12月",
+      "fruit": "蒴果杯状，长约1cm",
+      "bark": "幼枝四棱形，被褐色绒毛"
+    },
+    "growth_habit": "常绿灌木，生长迅速，花期极长，花大色艳",
+    "suitable_environment": "喜光，稍耐半荫；喜温暖湿润气候；适生于肥沃酸性土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "花后轻剪，促发新枝，冬季可回剪控制株形",
+      "fertilization": "生长期每月施磷钾含量较高的复合肥",
+      "watering": "保持土壤湿润，忌干旱"
+    }
+  },
+  {
+    "id": "tree_050",
+    "category": "tree",
+    "name": "春羽",
+    "latin": "Thaumatophyllum bipinnatifidum",
+    "family": "天南星科",
+    "genus": "喜林芋属",
+    "morphology": {
+      "leaf": "叶大，羽状深裂，裂片再浅裂，长达1m以上，深绿色，革质有光泽",
+      "flower": "肉穗花序，有佛焰苞，白色至淡黄色",
+      "fruit": "浆果密集，熟时橙黄色",
+      "bark": "茎粗壮，木质化，有明显叶痕和气生根"
+    },
+    "growth_habit": "多年生常绿草本或亚灌木，叶大奇特，株形优美",
+    "suitable_environment": "耐半荫，忌强光直射；喜温暖湿润气候；适生于疏松肥沃酸性土壤；不耐寒",
+    "common_pests": ["pest_001", "pest_002", "pest_012"],
+    "maintenance": {
+      "pruning_cycle": "及时剪除枯黄老叶，保持株形美观",
+      "fertilization": "春夏季每月施液肥或复合肥",
+      "watering": "保持土壤湿润，经常喷水增加空气湿度"
+    }
+  },
+  {
+    "id": "pest_001",
+    "category": "pest",
+    "name": "蚜虫类",
+    "scientific_name": "Aphidoidea spp.",
+    "type": "虫害",
+    "host_species": "香樟、榕树、凤凰木、白兰、桂花、山茶、杜鹃、龙船花、朱槿、鸡蛋花、紫薇等",
+    "identification": "体小，长1-5mm，软体，有翅或无翅，常群集为害；体色绿、黄、黑、褐等；触角长，腹末有腹管",
+    "symptoms": "以成若虫群集嫩梢、嫩叶、花蕾吸汁，致叶片卷曲、皱缩、变黄；分泌蜜露诱发煤污病；传播病毒病",
+    "control": {
+      "physical": "黄板诱杀有翅蚜；高压水枪冲刷；剪除严重为害枝梢",
+      "chemical": "10%吡虫啉可湿性粉剂1500-2000倍液；25%噻虫嗪水分散粒剂3000-5000倍液；1.8%阿维菌素乳油2000-3000倍液",
+      "biological": "保护瓢虫、草蛉、食蚜蝇、寄生蜂等天敌；释放异色瓢虫卵卡"
+    },
+    "recommended_pesticide": "吡虫啉、噻虫嗪、啶虫脒、高效氯氟氰菊酯"
+  },
+  {
+    "id": "pest_002",
+    "category": "pest",
+    "name": "介壳虫类",
+    "scientific_name": "Coccoidea spp.",
+    "type": "虫害",
+    "host_species": "榕树、桂花、白兰、散尾葵、山茶、栀子花、海桐、蒲葵、大王椰子、红车木等",
+    "identification": "虫体被蜡质介壳或粉状蜡质覆盖，固定不动；形态多样，有圆形、椭圆形、牡蛎形等；常见盾蚧、蜡蚧、粉蚧",
+    "symptoms": "群集枝叶吸汁，致叶片发黄、脱落，枝梢枯萎；排泄蜜露诱发煤污病；严重时整株枯死",
+    "control": {
+      "physical": "人工刮除；修剪严重虫枝集中销毁；冬季涂白",
+      "chemical": "若虫孵化期（5-7月）喷40%毒死蜱乳油1000-1500倍液；25%噻嗪酮可湿性粉剂1000-1500倍液；22.4%螺虫乙酯悬浮剂3000-4000倍液",
+      "biological": "保护瓢虫（红环瓢虫、澳洲瓢虫等）、寄生蜂等天敌"
+    },
+    "recommended_pesticide": "噻嗪酮、毒死蜱、螺虫乙酯、矿物油乳剂"
+  },
+  {
+    "id": "pest_003",
+    "category": "pest",
+    "name": "红蜘蛛（叶螨类）",
+    "scientific_name": "Tetranychus spp.",
+    "type": "虫害",
+    "host_species": "朱槿、杜鹃、散尾葵、夹竹桃、鸭脚木、大王椰子等",
+    "identification": "体微小，约0.3-0.5mm，红色、暗红色或黄绿色；成螨4对足，卵球形；叶背常可见丝网",
+    "symptoms": "刺吸叶片汁液，叶面出现黄白色小斑，后全叶变褐枯焦，叶背可见丝网和螨体；高温干旱季节严重",
+    "control": {
+      "physical": "喷水冲洗增加湿度；及时清除枯枝落叶",
+      "chemical": "1.8%阿维菌素乳油2000-3000倍液；20%哒螨灵可湿性粉剂2000-3000倍液；24%螺螨酯悬浮剂4000-5000倍液",
+      "biological": "释放捕食螨（如胡瓜钝绥螨）"
+    },
+    "recommended_pesticide": "阿维菌素、哒螨灵、螺螨酯、联苯肼酯、乙螨唑"
+  },
+  {
+    "id": "pest_004",
+    "category": "pest",
+    "name": "粉虱类",
+    "scientific_name": "Aleyrodidae spp.",
+    "type": "虫害",
+    "host_species": "朱槿、假连翘、桂花等",
+    "identification": "成虫体长约1-2mm，翅被白色蜡粉，停歇时翅呈屋脊状；若虫椭圆形扁薄透明，固定在叶背",
+    "symptoms": "成若虫群集叶背吸汁，致叶片褪绿、变黄、枯萎；分泌蜜露诱发煤污病",
+    "control": {
+      "physical": "黄板诱杀成虫；修剪密集枝叶通风透光",
+      "chemical": "10%吡虫啉可湿性粉剂1500倍液；25%噻虫嗪水分散粒剂3000倍液；25%吡蚜酮可湿性粉剂2000倍液",
+      "biological": "保护寄生蜂（如桨角蚜小蜂）、瓢虫、草蛉"
+    },
+    "recommended_pesticide": "吡虫啉、噻虫嗪、吡蚜酮、螺虫乙酯"
+  },
+  {
+    "id": "pest_005",
+    "category": "pest",
+    "name": "蓟马类",
+    "scientific_name": "Thysanoptera spp.",
+    "type": "虫害",
+    "host_species": "榕树、紫薇、杜鹃、龙船花、山茶等",
+    "identification": "体微小，约1-2mm，细长，黄褐色至黑色；翅狭长有缨毛；锉吸式口器",
+    "symptoms": "锉吸嫩叶、花蕾、嫩梢汁液，叶片出现银白色条纹斑点，卷曲畸形；花瓣出现褐色斑，影响观赏",
+    "control": {
+      "physical": "蓝板诱杀；清除杂草和枯落叶",
+      "chemical": "5%甲氨基阿维菌素苯甲酸盐微乳剂3000-4000倍液；60g/L乙基多杀菌素悬浮剂2000-3000倍液",
+      "biological": "保护小花蝽、捕食螨等天敌"
+    },
+    "recommended_pesticide": "乙基多杀菌素、甲维盐、噻虫嗪、啶虫脒"
+  },
+  {
+    "id": "pest_006",
+    "category": "pest",
+    "name": "天牛类",
+    "scientific_name": "Cerambycidae spp.",
+    "type": "虫害",
+    "host_species": "榕树、凤凰木、木棉、秋枫、芒果、黄槐、人面子、海南红豆等",
+    "identification": "成虫体中型至大型，触角长于体或与体等长，复眼肾形；幼虫乳白色，无足，前胸背板骨化",
+    "symptoms": "幼虫蛀食树干和主枝木质部，蛀道内充满虫粪木屑；树势衰弱、枝叶枯黄，遇风易折断；蛀孔外可见新鲜木屑和虫粪",
+    "control": {
+      "physical": "成虫羽化期（5-7月）人工捕捉；树干涂白；用铁丝钩杀蛀道内幼虫",
+      "chemical": "蛀孔注射80%敌敌畏乳油100倍液或塞入磷化铝片后用泥封口；成虫期喷8%氯氰菊酯微囊悬浮剂300-400倍液",
+      "biological": "释放管氏肿腿蜂、花绒寄甲寄生幼虫；保护啄木鸟"
+    },
+    "recommended_pesticide": "敌敌畏（注孔）、氯氰菊酯、高效氯氟氰菊酯、磷化铝（封孔）"
+  },
+  {
+    "id": "pest_007",
+    "category": "pest",
+    "name": "吉丁虫类",
+    "scientific_name": "Buprestidae spp.",
+    "type": "虫害",
+    "host_species": "榕树、大叶榕、秋枫、人面子等",
+    "identification": "成虫体纺锤形或楔形，有金属光泽，色彩艳丽；幼虫乳白色，前胸显著膨大呈扁锤形",
+    "symptoms": "幼虫在树皮和木质部之间蛀食，形成迂曲蛀道，破坏形成层；树皮隆起流胶，树木逐渐枯死",
+    "control": {
+      "physical": "加强抚育增强树势；及时清除严重受害木；树干涂白",
+      "chemical": "成虫羽化期喷8%氯氰菊酯微囊悬浮剂300倍液；幼虫期用80%敌敌畏100倍液注蛀道",
+      "biological": "保护寄生蜂等天敌"
+    },
+    "recommended_pesticide": "氯氰菊酯、敌敌畏（注孔）、毒死蜱"
+  },
+  {
+    "id": "pest_008",
+    "category": "pest",
+    "name": "尺蠖类（尺蛾幼虫）",
+    "scientific_name": "Geometridae spp.",
+    "type": "虫害",
+    "host_species": "香樟、榕树、桂花、山茶等",
+    "identification": "幼虫体细长，行走时体弓起如尺量物，故称'尺蠖'；体色与树枝相似，有拟态能力；仅第6和第10腹节有腹足",
+    "symptoms": "幼虫食叶成缺刻或孔洞，严重时将叶片吃光，仅剩叶脉；大发生时短期内可吃光整株叶片",
+    "control": {
+      "physical": "幼虫期振枝捕杀；灯光诱杀成虫；冬季翻耕灭蛹",
+      "chemical": "幼虫低龄期喷4.5%高效氯氰菊酯乳油1500-2000倍液；25%灭幼脲悬浮剂1500-2000倍液",
+      "biological": "喷施苏云金杆菌（Bt）制剂500-800倍液；保护寄生蜂和鸟类"
+    },
+    "recommended_pesticide": "高效氯氰菊酯、灭幼脲、Bt制剂、甲维盐"
+  },
+  {
+    "id": "pest_009",
+    "category": "pest",
+    "name": "刺蛾类",
+    "scientific_name": "Limacodidae spp.",
+    "type": "虫害",
+    "host_species": "香樟、紫薇、榕树、桂花、白兰等",
+    "identification": "幼虫身体扁宽或圆柱形，体表有枝刺或毒毛，触及皮肤引起灼痛红肿；蛹藏于坚硬的茧内",
+    "symptoms": "幼虫食叶，低龄幼虫仅食叶肉留表皮，高龄幼虫食全叶成缺刻孔洞",
+    "control": {
+      "physical": "冬季清除树干虫茧；灯光诱杀成虫",
+      "chemical": "低龄幼虫期喷4.5%高效氯氰菊酯乳油1500倍液；90%敌百虫晶体1000倍液",
+      "biological": "保护寄生蜂和捕食性天敌；喷Bt制剂"
+    },
+    "recommended_pesticide": "高效氯氰菊酯、敌百虫、Bt、甲维盐"
+  },
+  {
+    "id": "pest_010",
+    "category": "pest",
+    "name": "毒蛾类",
+    "scientific_name": "Lymantriidae spp.",
+    "type": "虫害",
+    "host_species": "榕树、香樟、凤凰木、白兰等",
+    "identification": "成虫体粗壮多毛，口器退化；幼虫多毛，常有毛丛或毛刷，颜色鲜艳；毒毛可引起皮肤过敏",
+    "symptoms": "幼虫群集食叶，可将叶片吃光，影响树木生长和景观效果",
+    "control": {
+      "physical": "摘除卵块和初孵幼虫群集叶片；灯光诱杀成虫",
+      "chemical": "低龄幼虫期喷4.5%高效氯氰菊酯乳油1500倍液；25%灭幼脲悬浮剂1500倍液",
+      "biological": "喷Bt制剂；保护寄生蜂、寄生蝇及鸟类"
+    },
+    "recommended_pesticide": "高效氯氰菊酯、灭幼脲、Bt、毒死蜱"
+  },
+  {
+    "id": "pest_011",
+    "category": "pest",
+    "name": "炭疽病",
+    "scientific_name": "Colletotrichum spp.",
+    "type": "病害",
+    "host_species": "香樟、桂花、山茶、栀子花、杜鹃、芒果、扁桃、蒲葵等",
+    "identification": "病斑近圆形或不规则形，褐色至灰白色，边缘深褐色，后期病斑上出现黑色小点（分生孢子盘），潮湿时有桔红色粘液",
+    "symptoms": "为害叶片、嫩梢和果实；叶片出现近圆形褐色病斑，扩大后可穿孔或叶枯；新梢受害变黑枯死",
+    "control": {
+      "physical": "清除病叶病枝集中销毁；合理修剪通风透光；冬季清园",
+      "chemical": "发病初期喷25%咪鲜胺乳油1000-1500倍液；250g/L吡唑醚菌酯乳油1500-2000倍液；75%百菌清可湿性粉剂600-800倍液",
+      "biological": "喷施枯草芽孢杆菌或木霉菌等生物制剂"
+    },
+    "recommended_pesticide": "咪鲜胺、吡唑醚菌酯、苯醚甲环唑、百菌清"
+  },
+  {
+    "id": "pest_012",
+    "category": "pest",
+    "name": "叶斑病类",
+    "scientific_name": "Alternaria spp. / Cercospora spp. / Phyllosticta spp.",
+    "type": "病害",
+    "host_species": "桂花、白兰、杜鹃、灰莉、米兰、紫薇、鸭脚木、海桐、栀子花等",
+    "identification": "病斑圆形至不规则形，大小不一，颜色褐色至灰褐色，有轮纹或边缘明显，潮湿时病斑上可见霉层",
+    "symptoms": "叶片出现斑点，严重时叶斑密集导致叶片枯黄早落；多从下部老叶开始发生",
+    "control": {
+      "physical": "及时清除病落叶，减少侵染源；合理施肥增强树势",
+      "chemical": "50%多菌灵可湿性粉剂800-1000倍液；70%甲基硫菌灵可湿性粉剂1000倍液；75%百菌清可湿性粉剂600-800倍液",
+      "biological": "选用木霉菌、芽孢杆菌等生物制剂叶面喷施"
+    },
+    "recommended_pesticide": "多菌灵、甲基硫菌灵、百菌清、代森锰锌"
+  },
+  {
+    "id": "pest_013",
+    "category": "pest",
+    "name": "白粉病",
+    "scientific_name": "Erysiphales spp.",
+    "type": "病害",
+    "host_species": "紫薇、大叶紫薇、黄槐、杜鹃、朱槿、三角梅、山茶、扁桃等",
+    "identification": "病部表面覆盖白色粉状霉层（菌丝体和分生孢子），后期白粉中可见黑色小颗粒（闭囊壳）",
+    "symptoms": "为害嫩叶、新梢、花蕾和幼果；病部覆盖白粉状霉层，叶片皱缩卷曲、枯黄早落；严重时新梢枯死",
+    "control": {
+      "physical": "剪除重病枝叶；合理修剪通风透光；控制氮肥增施磷钾肥",
+      "chemical": "25%三唑酮可湿性粉剂1500-2000倍液；250g/L吡唑醚菌酯乳油2000-3000倍液；12.5%烯唑醇可湿性粉剂2000-3000倍液",
+      "biological": "喷施枯草芽孢杆菌、哈茨木霉菌制剂"
+    },
+    "recommended_pesticide": "三唑酮、吡唑醚菌酯、烯唑醇、苯醚甲环唑"
+  },
+  {
+    "id": "pest_014",
+    "category": "pest",
+    "name": "煤污病",
+    "scientific_name": "Capnodium spp. / Meliola spp.",
+    "type": "病害",
+    "host_species": "榕树、桂花、白兰、紫薇、大王椰子、山茶、海桐等",
+    "identification": "叶片和枝梢表面覆盖一层黑色煤烟状霉层，可成片剥落；霉层为病菌菌丝和孢子，非寄生组织内",
+    "symptoms": "叶片、枝条表面布满黑色霉层似煤烟，阻碍光合作用，影响观赏价值；常伴随蚜虫、介壳虫、粉虱发生",
+    "control": {
+      "physical": "防治蚜虫、介壳虫等刺吸式害虫是根本；喷水冲洗叶面霉层；修剪密集枝叶",
+      "chemical": "先治虫（吡虫啉等），再喷杀菌剂如50%多菌灵800倍液洗净霉层",
+      "biological": "保护天敌控制害虫，间接防治煤污病"
+    },
+    "recommended_pesticide": "先治虫：吡虫啉/噻虫嗪；后清洗：多菌灵/甲基硫菌灵"
+  },
+  {
+    "id": "pest_015",
+    "category": "pest",
+    "name": "锈病",
+    "scientific_name": "Pucciniales spp.",
+    "type": "病害",
+    "host_species": "鸡蛋花、黄槐、凤凰木、桂花等",
+    "identification": "病部产生铁锈色粉状物（夏孢子堆），后期出现黑色冬孢子堆；严重时叶片变形",
+    "symptoms": "叶背或叶面出现黄色至锈褐色疱状突起，破裂散出锈色粉末；严重时叶片枯黄脱落",
+    "control": {
+      "physical": "清除病叶集中销毁；合理施肥增强树势",
+      "chemical": "25%三唑酮可湿性粉剂1500倍液；250g/L吡唑醚菌酯乳油2000-3000倍液；75%百菌清可湿性粉剂600倍液",
+      "biological": "尚无高效生物防治方法，以化学预防为主"
+    },
+    "recommended_pesticide": "三唑酮、苯醚甲环唑、吡唑醚菌酯、戊唑醇"
+  },
+  {
+    "id": "pest_016",
+    "category": "pest",
+    "name": "根腐病",
+    "scientific_name": "Phytophthora spp. / Fusarium spp. / Pythium spp.",
+    "type": "病害",
+    "host_species": "桂花、杜鹃、山茶、鸡蛋花、散尾葵、栀子花等",
+    "identification": "根部变褐腐烂，皮层与木质部分离；受害植株地上部叶片发黄、萎蔫、枯死",
+    "symptoms": "须根和主根变褐腐烂，地上部生长不良，叶片黄化萎蔫；潮湿时根颈处可见白色菌丝；常因排水不良或过度浇水诱发",
+    "control": {
+      "physical": "改善排水条件，避免积水；发现病株及时清除，更换土壤；合理浇水",
+      "chemical": "根区浇灌50%多菌灵可湿性粉剂500倍液；72.2%霜霉威水剂600-800倍液；58%甲霜灵锰锌可湿性粉剂500倍液",
+      "biological": "施用哈茨木霉菌、枯草芽孢杆菌灌根"
+    },
+    "recommended_pesticide": "多菌灵、甲霜灵锰锌、恶霉灵、霜霉威"
+  },
+  {
+    "id": "pest_017",
+    "category": "pest",
+    "name": "枯萎病",
+    "scientific_name": "Fusarium oxysporum",
+    "type": "病害",
+    "host_species": "桂花、紫薇、朱槿、白兰等",
+    "identification": "维管束褐变阻塞；病株一侧枝叶先萎蔫，后全株枯死；横切茎部可见维管束变褐色",
+    "symptoms": "植株突然萎蔫，叶片不脱落但变黄干枯；枝干横截面维管束呈褐色环纹；是一种毁灭性土传病害",
+    "control": {
+      "physical": "选用抗病品种和无病苗木；土壤暴晒消毒；及时清除病株并消毒土壤",
+      "chemical": "50%多菌灵可湿性粉剂500倍液灌根；70%恶霉灵可湿性粉剂3000-4000倍液灌根",
+      "biological": "施用枯草芽孢杆菌、木霉菌进行土壤生物处理"
+    },
+    "recommended_pesticide": "恶霉灵、多菌灵、甲霜灵、咯菌腈"
+  },
+  {
+    "id": "pest_018",
+    "category": "pest",
+    "name": "褐斑病",
+    "scientific_name": "Cercospora spp. / Phoma spp.",
+    "type": "病害",
+    "host_species": "桂花、香樟、海桐、栀子花、紫薇等",
+    "identification": "病斑近圆形或多角形，褐色至灰褐色，边缘深褐色，中心颜色较浅，有时有轮纹",
+    "symptoms": "叶片出现褐色圆形或不规则病斑，扩大后中央变灰白色，边缘深褐色；严重时病斑连片导致叶片枯黄早落",
+    "control": {
+      "physical": "清除病落叶集中销毁；合理修剪增加通风透光",
+      "chemical": "70%甲基硫菌灵可湿性粉剂1000倍液；75%百菌清可湿性粉剂600-800倍液；25%苯醚甲环唑乳油3000-4000倍液",
+      "biological": "喷施多粘类芽孢杆菌制剂"
+    },
+    "recommended_pesticide": "苯醚甲环唑、甲基硫菌灵、百菌清、代森锰锌"
+  },
+  {
+    "id": "pest_019",
+    "category": "pest",
+    "name": "霜霉病",
+    "scientific_name": "Peronosporaceae spp.",
+    "type": "病害",
+    "host_species": "桂花的苗期、地被花卉类",
+    "identification": "叶背出现白色或灰紫色霜状霉层，对应的叶面呈淡黄色多角形病斑",
+    "symptoms": "叶片正面出现淡黄色不规则病斑，湿度大时叶背有白色霜状霉层；严重时叶片变褐枯死",
+    "control": {
+      "physical": "加强通风降低湿度；清除病残体",
+      "chemical": "72.2%霜霉威水剂600-800倍液；58%甲霜灵锰锌可湿性粉剂500-600倍液；80%烯酰吗啉水分散粒剂2000-2500倍液",
+      "biological": "喷施木霉菌制剂进行预防"
+    },
+    "recommended_pesticide": "霜霉威、烯酰吗啉、甲霜灵锰锌、氰霜唑"
+  },
+  {
+    "id": "pest_020",
+    "category": "pest",
+    "name": "灰霉病",
+    "scientific_name": "Botrytis cinerea",
+    "type": "病害",
+    "host_species": "杜鹃、山茶、朱槿、栀子花等多种花灌木",
+    "identification": "病部产生灰色霉层（分生孢子梗和分生孢子），花器和嫩茎最易受害",
+    "symptoms": "为害花、果、叶和嫩茎；受害部位变褐软腐，高湿时密生灰色霉层；低温多雨季节易大面积发生",
+    "control": {
+      "physical": "加强通风降低湿度；及时清除病花病叶；避免傍晚浇水",
+      "chemical": "50%腐霉利可湿性粉剂1000-1500倍液；50%异菌脲可湿性粉剂1000-1500倍液；40%嘧霉胺悬浮剂800-1000倍液",
+      "biological": "喷施木霉菌或芽孢杆菌制剂"
+    },
+    "recommended_pesticide": "腐霉利、异菌脲、嘧霉胺、啶酰菌胺"
+  },
+  {
+    "id": "pest_021",
+    "category": "pest",
+    "name": "细菌性叶斑病",
+    "scientific_name": "Xanthomonas spp. / Pseudomonas spp.",
+    "type": "病害",
+    "host_species": "红车木、灰莉、桂花等",
+    "identification": "病斑水渍状，初期半透明，后变褐色至黑褐色，周围有黄色晕圈",
+    "symptoms": "叶片出现水渍状小斑点，扩大后呈褐色至黑色，常受叶脉限制呈多角形；潮湿时病部有菌脓溢出",
+    "control": {
+      "physical": "清除病叶病枝销毁；避免雨水冲溅传播；修剪用具消毒",
+      "chemical": "20%噻菌铜悬浮剂500-600倍液；72%农用链霉素可溶性粉剂3000-4000倍液；77%氢氧化铜可湿性粉剂500-800倍液",
+      "biological": "施用荧光假单胞菌等生防菌剂"
+    },
+    "recommended_pesticide": "噻菌铜、氢氧化铜、春雷霉素、中生菌素"
+  },
+  {
+    "id": "pest_022",
+    "category": "pest",
+    "name": "病毒病",
+    "scientific_name": "多种植物病毒",
+    "type": "病害",
+    "host_species": "朱槿、杜鹃、紫薇等多种园林植物",
+    "identification": "植株出现花叶、斑驳、黄化、皱缩、矮化等症状，无霉层无脓状物",
+    "symptoms": "叶片出现深浅绿色相间的花叶或斑驳，叶片皱缩畸形，植株矮化；多由蚜虫、蓟马等传播",
+    "control": {
+      "physical": "防治传毒昆虫（蚜虫、蓟马）；清除病株，使用无病毒种苗；工具消毒",
+      "chemical": "病毒病无特效治疗药，预防为主：治虫用药同蚜虫/蓟马防治；可试用盐酸吗啉胍、氨基寡糖素等病毒抑制剂缓解",
+      "biological": "使用弱毒株系交叉保护"
+    },
+    "recommended_pesticide": "防虫：吡虫啉、啶虫脒；缓解：盐酸吗啉胍、氨基寡糖素"
+  },
+  {
+    "id": "pest_023",
+    "category": "pest",
+    "name": "根结线虫病",
+    "scientific_name": "Meloidogyne spp.",
+    "type": "虫害",
+    "host_species": "栀子花、山茶、桂花、紫薇等",
+    "identification": "根部形成大小不等的根结（虫瘿），初白色后褐变；剖视可见白色梨形雌虫",
+    "symptoms": "地上部生长不良，叶色发黄，植株矮小，严重时萎蔫枯死；根部有大小不等的瘤状根结",
+    "control": {
+      "physical": "土壤暴晒消毒；水旱轮作；选用无线虫苗木",
+      "chemical": "1.8%阿维菌素乳油1000-1500倍液灌根；10%噻唑膦颗粒剂2-3kg/亩土壤处理",
+      "biological": "施用淡紫拟青霉、厚垣轮枝菌等生防菌剂"
+    },
+    "recommended_pesticide": "阿维菌素、噻唑膦、氟吡菌酰胺"
+  },
+  {
+    "id": "pest_024",
+    "category": "pest",
+    "name": "白蚁类",
+    "scientific_name": "Isoptera spp.",
+    "type": "虫害",
+    "host_species": "榕树、香樟、银杏、大王椰子等乔木",
+    "identification": "工蚁乳白色，无翅，畏光；兵蚁头部大，上颚发达；有翅繁殖蚁具等长四翅",
+    "symptoms": "在树干基部或内部筑巢，蛀食木质部形成蚁道，表面覆泥被；严重时树干中空，遇风折断",
+    "control": {
+      "physical": "清除枯死树桩和朽木减少蚁源；树干涂白；破坏蚁道",
+      "chemical": "蚁道喷撒5%氟虫腈粉剂或0.5%氟铃脲饵剂；土壤灌注5%毒死蜱乳油100倍液",
+      "biological": "利用绿僵菌、白僵菌感染白蚁"
+    },
+    "recommended_pesticide": "氟虫腈、氟铃脲饵剂、毒死蜱、联苯菊酯"
+  },
+  {
+    "id": "pest_025",
+    "category": "pest",
+    "name": "蛴螬类（金龟子幼虫）",
+    "scientific_name": "Scarabaeoidea spp.",
+    "type": "虫害",
+    "host_species": "草坪、地被及苗木根系",
+    "identification": "幼虫体白色，C形弯曲，头部褐色，胸足3对发达，腹部末端腹面肛毛排列为鉴定特征",
+    "symptoms": "幼虫取食植物根系和地下茎，致植株枯黄、整片死亡；草坪可成片掀起",
+    "control": {
+      "physical": "灯光诱杀金龟子成虫；冬耕翻土冻死幼虫",
+      "chemical": "3%辛硫磷颗粒剂2-3kg/亩土壤撒施后灌水；50%辛硫磷乳油500倍液灌根",
+      "biological": "施用白僵菌、绿僵菌制剂；利用昆虫病原线虫"
+    },
+    "recommended_pesticide": "辛硫磷、毒死蜱（土壤处理）、白僵菌制剂"
+  },
+  {
+    "id": "pest_026",
+    "category": "pest",
+    "name": "地老虎",
+    "scientific_name": "Agrotis spp.",
+    "type": "虫害",
+    "host_species": "苗木嫩茎、草坪、草花幼苗",
+    "identification": "幼虫灰褐色至黑褐色，体长35-50mm，体表粗糙有颗粒；受惊扰时卷曲成C形",
+    "symptoms": "幼虫夜间活动，切断幼苗嫩茎拖入土中取食，造成缺苗断垄",
+    "control": {
+      "physical": "清晨人工捕杀断苗附近土中幼虫；糖醋液诱杀成虫",
+      "chemical": "用地老虎喜食的鲜草拌90%敌百虫晶体200倍液制成毒饵傍晚撒施",
+      "biological": "保护寄生蜂、步甲等天敌"
+    },
+    "recommended_pesticide": "敌百虫毒饵、辛硫磷、高效氯氰菊酯"
+  },
+  {
+    "id": "pest_027",
+    "category": "pest",
+    "name": "蜗牛与蛞蝓",
+    "scientific_name": "Gastropoda spp.",
+    "type": "虫害",
+    "host_species": "地被植物、草花幼苗、多肉植物",
+    "identification": "蜗牛有螺旋形外壳，蛞蝓无壳；体柔软，分泌粘液，爬行后留下银白色粘液痕迹",
+    "symptoms": "舔食叶片、嫩茎、花朵，造成不规则孔洞或缺刻，苗期可被吃光",
+    "control": {
+      "physical": "人工捡拾；撒草木灰或石灰形成隔离带；堆草诱捕",
+      "chemical": "6%四聚乙醛颗粒剂500-800g/亩撒施",
+      "biological": "保护步行虫、蛙类等天敌"
+    },
+    "recommended_pesticide": "四聚乙醛颗粒剂、杀螺胺"
+  },
+  {
+    "id": "pest_028",
+    "category": "pest",
+    "name": "潜叶蛾类",
+    "scientific_name": "Phyllocnistis spp. / Liriomyza spp.",
+    "type": "虫害",
+    "host_species": "榕树、桂花、白兰、米兰等",
+    "identification": "幼虫潜入叶表皮下蛀食，形成白色弯曲隧道；成虫为微小蛾类或蝇类",
+    "symptoms": "幼虫在叶片表皮下蛀食叶肉，形成蜿蜒曲折的白色蛀道；严重时叶片皱缩、焦枯早落",
+    "control": {
+      "physical": "剪除带虫叶销毁；灯光诱杀成虫",
+      "chemical": "幼虫初孵期喷1.8%阿维菌素乳油2000-3000倍液；75%灭蝇胺可湿性粉剂3000-5000倍液",
+      "biological": "保护寄生蜂天敌"
+    },
+    "recommended_pesticide": "阿维菌素、灭蝇胺、高效氯氰菊酯"
+  },
+  {
+    "id": "pest_029",
+    "category": "pest",
+    "name": "卷叶蛾类",
+    "scientific_name": "Tortricidae spp.",
+    "type": "虫害",
+    "host_species": "白兰、桂花、山茶、紫薇等",
+    "identification": "幼虫吐丝将叶片卷起或粘连，藏身其中取食；成虫为小型蛾类，前翅近方形",
+    "symptoms": "幼虫吐丝将嫩叶卷缀成苞或粘连数叶，在苞内取食叶肉，致叶片残缺不全",
+    "control": {
+      "physical": "摘除虫苞集中销毁；灯光诱杀成虫",
+      "chemical": "幼虫初孵期喷4.5%高效氯氰菊酯乳油1500倍液；25%灭幼脲悬浮剂1500倍液",
+      "biological": "喷Bt制剂；保护赤眼蜂等天敌"
+    },
+    "recommended_pesticide": "高效氯氰菊酯、灭幼脲、甲维盐、Bt"
+  },
+  {
+    "id": "pest_030",
+    "category": "pest",
+    "name": "日灼病",
+    "scientific_name": "生理性病害（Physiological disorder）",
+    "type": "生理性病害",
+    "host_species": "香樟、榕树、桂花、杜鹃、山茶等（大树移栽后及新栽苗木）",
+    "identification": "向阳面树皮开裂、变褐坏死；叶片向阳面出现黄白至褐色枯斑",
+    "symptoms": "夏季高温强光下，树干南面或西南面树皮干裂坏死，形成层受损；叶片出现大面积枯焦斑块，叶缘最为明显",
+    "control": {
+      "physical": "大树移栽后树干缠草绳或涂白防晒；新栽苗木遮阳；合理浇水降温增湿",
+      "chemical": "尚无化学防治方法，以物理防护为主；树皮损伤处涂伤口愈合剂保护",
+      "biological": "无"
+    },
+    "recommended_pesticide": "无——物理防护为主：树干涂白、缠草绳、遮阳网"
+  },
+  {
+    "id": "standard_001",
+    "category": "maintenance_standard",
+    "name": "常绿阔叶乔木修剪标准",
+    "applicable_species": "香樟、榕树、白兰、灰莉、秋枫、扁桃、海南红豆等",
+    "pruning_cycle": "每年1-2次，春季萌芽前（2-3月）为主修剪期，秋季10-11月为辅修剪期",
+    "pruning_method": "以疏剪为主，去除枯死枝、病虫枝、交叉枝、重叠枝、过密枝；保持树冠通风透光；行道树保持枝下高2.5-3m",
+    "fertilization_schedule": "春季施复合肥（N:P:K=15:15:15）0.5-1kg/10cm胸径；秋末冬初施腐熟有机肥2-3kg/株环状沟施",
+    "watering_frequency": "生长期每周1-2次，干旱季节每周2-3次，每次浇透40-60cm土层；雨季停止浇水注意排水",
+    "winter_protection": "深圳地区冬季温度较高，一般不需特殊防寒；极端低温年份新栽苗木根部覆草或培土保温"
+  },
+  {
+    "id": "standard_002",
+    "category": "maintenance_standard",
+    "name": "落叶观花乔木修剪标准",
+    "applicable_species": "凤凰木、木棉、大叶紫薇、异木棉、黄花风铃木、蓝花楹等",
+    "pruning_cycle": "每年1次，冬季落叶后至翌年萌芽前（12月至次年2月）进行",
+    "pruning_method": "疏除过密枝、交叉枝和病虫枝；短截徒长枝和过长枝条；注意保留花芽着生的短枝；幼树注意培养主枝骨架",
+    "fertilization_schedule": "萌芽前施氮磷钾复合肥促进枝叶生长；花前1-2个月增施磷钾肥（N:P:K=10:20:20）促进花芽分化",
+    "watering_frequency": "萌芽期和开花期保持土壤湿润每周1-2次；花后及休眠期减少浇水，每月1-2次即可",
+    "winter_protection": "木棉、凤凰木等落叶树种深圳安全越冬；注意冬季修剪后伤口涂抹愈合剂防感染"
+  },
+  {
+    "id": "standard_003",
+    "category": "maintenance_standard",
+    "name": "棕榈科植物养护标准",
+    "applicable_species": "大王椰子、狐尾椰子、蒲葵、散尾葵等",
+    "pruning_cycle": "每年2-3次，随时剪除枯黄老叶；台风季前（5-6月）集中清理",
+    "pruning_method": "仅剪除已完全枯黄的老叶，保留足够功能叶（不少于8-10片）；剪口贴近叶鞘基部，不留残桩；勿过度修剪",
+    "fertilization_schedule": "春夏季每2个月施1次棕榈专用肥或复合肥（含微量元素镁、锰、硼），大树0.5-1kg/株",
+    "watering_frequency": "生长期保持土壤湿润，每周1-2次；新植植株加强浇水；冬季减少浇水",
+    "winter_protection": "大王椰子等较耐寒品种深圳可安全越冬；散尾葵等不耐寒品种低温时根部覆草保护"
+  },
+  {
+    "id": "standard_004",
+    "category": "maintenance_standard",
+    "name": "花灌木养护标准（观花类）",
+    "applicable_species": "杜鹃、山茶、朱槿、龙船花、栀子花、桂花、紫薇等",
+    "pruning_cycle": "花后10-15天内及时修剪；冬季轻剪整形",
+    "pruning_method": "花后及时剪除残花和花梗，促进新枝萌发；疏除过密枝、老弱枝；山茶、杜鹃以轻剪为主；紫薇可冬季重剪",
+    "fertilization_schedule": "花后施复合肥促进恢复；花前1-2个月施磷钾肥；生长期每月施薄肥1次；杜鹃、山茶、栀子为喜酸植物，施酸性专用肥",
+    "watering_frequency": "生长期保持土壤湿润，夏季每周2-3次；花期不能缺水；冬季减少浇水",
+    "winter_protection": "杜鹃、栀子等在深圳可自然越冬；极端低温时覆盖防寒物"
+  },
+  {
+    "id": "standard_005",
+    "category": "maintenance_standard",
+    "name": "绿篱及造型植物养护标准",
+    "applicable_species": "假连翘、海桐、红车木、灰莉、黄金香柳等",
+    "pruning_cycle": "生长期每15-30天修剪1次；深圳3-11月为集中修剪期",
+    "pruning_method": "保持绿篱平整整齐，修剪面比基部略窄呈梯形利于下部受光；每次修剪量不超过新生长量的1/3；电动绿篱机为主",
+    "fertilization_schedule": "每次大规模修剪后追施速效复合肥1次；春秋各深层施有机肥1次",
+    "watering_frequency": "保持土壤湿润，夏季每周2-3次；雨季注意排水",
+    "winter_protection": "不需特殊防护；12-2月减少修剪次数为30-45天1次"
+  },
+  {
+    "id": "standard_006",
+    "category": "maintenance_standard",
+    "name": "草坪养护标准（暖季型）",
+    "applicable_species": "马尼拉草、狗牙根、百慕大草等深圳常用暖季型草坪",
+    "pruning_cycle": "4-11月每周修剪1次（保持高度3-5cm）；12-3月每2-3周修剪1次（保持高度5-7cm）",
+    "pruning_method": "遵循1/3原则——每次修剪量不超过草高的1/3；修剪方向交替进行避免压草；修剪后即时清理草屑",
+    "fertilization_schedule": "春季返青施高氮复合肥20g/m²；夏季减量15g/m²；秋季施高钾复合肥15g/m²促进越冬；冬季不施肥",
+    "watering_frequency": "夏季每周2-3次，每次浇透10-15cm土层；春秋每周1-2次；冬季每2周1次",
+    "winter_protection": "冬季交播冷季型草种（黑麦草）保持四季常绿；12月最后一次修剪后降低浇水频次"
+  },
+  {
+    "id": "standard_007",
+    "category": "maintenance_standard",
+    "name": "地被植物养护标准",
+    "applicable_species": "翠芦莉、沿阶草、麦冬、蟛蜞菊等地被植物",
+    "pruning_cycle": "每年修剪2-3次；春季返青前重剪1次，生长期可适当修剪",
+    "pruning_method": "春季用割灌机或修枝剪齐地平面剪去枯老部分；生长期边缘修整控制蔓延范围",
+    "fertilization_schedule": "春季返青后施复合肥30-40g/m²；生长旺季追施1次",
+    "watering_frequency": "保持土壤湿润但不积水；夏季每周1-2次；雨季注意排水",
+    "winter_protection": "深圳地被植物基本安全越冬；翠芦莉等地上部枯死后春季根部重新萌发"
+  },
+  {
+    "id": "standard_008",
+    "category": "maintenance_standard",
+    "name": "水生及湿生植物养护标准",
+    "applicable_species": "荷花、睡莲、再力花、菖蒲、美人蕉等",
+    "pruning_cycle": "生长期及时剪除枯黄叶和残花；冬季地上部枯死后齐水面或土面剪除",
+    "pruning_method": "随时摘除残花和黄叶保持观赏效果；冬季全株枯萎后剪除上部；每2-3年分株更新",
+    "fertilization_schedule": "生长期每1-2月施水生植物专用肥或控释肥1次；用纸包好肥丸插入泥土中避免污染水体",
+    "watering_frequency": "保持适宜水位深度（不同植物要求不同，一般10-50cm）；旱季及时补水维持水位",
+    "winter_protection": "深圳多数水生植物可自然越冬；睡莲等根茎冬季保留在水中即可"
+  },
+  {
+    "id": "standard_009",
+    "category": "maintenance_standard",
+    "name": "攀援及蔓性植物养护标准",
+    "applicable_species": "三角梅、炮仗花、爬山虎、紫藤、蒜香藤等",
+    "pruning_cycle": "每年修剪2-3次；三角梅每次花后修剪；冬季全面整形1次",
+    "pruning_method": "三角梅花后短截促发新枝；引导枝条攀附支架并固定；疏除过密缠绕枝条；及时剪除枯死老藤",
+    "fertilization_schedule": "三角梅花前控水控氮、增施磷钾肥；生长期每1-2月施复合肥1次",
+    "watering_frequency": "三角梅耐旱，适度干旱可促花；一般每周1-2次即可，雨季注意排水",
+    "winter_protection": "深圳攀援植物基本安全越冬；紫藤落叶属正常现象"
+  },
+  {
+    "id": "standard_010",
+    "category": "maintenance_standard",
+    "name": "大树移栽后养护标准",
+    "applicable_species": "适用于所有胸径大于15cm的乔木移栽",
+    "pruning_cycle": "移栽前进行缩冠修剪；移栽后第1年不修剪仅去除枯死枝",
+    "pruning_method": "移栽前疏除60%-70%枝叶减少蒸腾；保留主干和主枝；截口涂伤口愈合剂",
+    "fertilization_schedule": "移栽时穴底施足基肥（腐熟有机肥5-10kg+钙镁磷肥1kg）；第1年不追肥；第2年起正常施肥",
+    "watering_frequency": "定根水浇透；移栽后1个月内每天浇水1次；之后每周2-3次；注意叶面喷水保持湿度",
+    "winter_protection": "树干缠草绳或麻布；树冠必要时搭遮阳网；树根覆盖草帘或地膜保湿保温"
+  },
+  {
+    "id": "standard_011",
+    "category": "maintenance_standard",
+    "name": "新栽苗木养护标准（胸径5-15cm）",
+    "applicable_species": "适用于所有新种植1-2年的乔木",
+    "pruning_cycle": "种植前疏除部分枝叶；种植后第1年仅去除病虫枝、枯枝",
+    "pruning_method": "种植前疏剪1/3-1/2枝叶；保持主枝分布均匀；伤口涂愈合剂",
+    "fertilization_schedule": "种植穴施基肥（腐熟有机肥3-5kg/穴）；6个月后可少量追施复合肥0.1-0.2kg/株",
+    "watering_frequency": "种植后1-2周每天浇透1次；2-4周每2天1次；之后逐步延长至每周2次；台风季前减少浇水促进根系深扎",
+    "winter_protection": "树干涂白防日灼；根际覆盖5-10cm厚有机覆盖物"
+  },
+  {
+    "id": "standard_012",
+    "category": "maintenance_standard",
+    "name": "春季综合养护标准（3-5月）",
+    "applicable_species": "所有园林植物",
+    "pruning_cycle": "3月全面春季修剪：乔木整形修剪、灌木返青修剪、草坪首次低剪",
+    "pruning_method": "乔木去除冬季枯死枝；花灌木花后及时修剪；绿篱整形修剪；清理冬季枯草落叶",
+    "fertilization_schedule": "3-4月全面施春肥：乔木每株施复合肥0.3-1kg；灌木每株0.1-0.3kg；草坪20g/m²；以氮肥为主促进生长",
+    "watering_frequency": "根据降雨量浇水，一般每周1-2次；新植树和需水多的植物增加频次",
+    "winter_protection": "3月中下旬撤除冬季防寒设施"
+  },
+  {
+    "id": "standard_013",
+    "category": "maintenance_standard",
+    "name": "夏季综合养护标准（6-8月）",
+    "applicable_species": "所有园林植物",
+    "pruning_cycle": "轻修剪为主；绿篱持续修剪保持造型；草坪每周修剪",
+    "pruning_method": "不宜重剪；仅去除病虫枝、枯枝；台风前疏剪乔木增强抗风能力；绿篱保持整齐",
+    "fertilization_schedule": "控制氮肥防止徒长；适当追施磷钾肥增强抗逆性；草坪减量施肥",
+    "watering_frequency": "高温干旱期每周2-3次，清晨或傍晚浇水；注意叶面喷水降温增湿",
+    "winter_protection": "台风季前加固支撑新栽树木；检查排水系统防涝"
+  },
+  {
+    "id": "standard_014",
+    "category": "maintenance_standard",
+    "name": "秋季综合养护标准（9-11月）",
+    "applicable_species": "所有园林植物",
+    "pruning_cycle": "国庆节前集中整形修剪1次；落叶树种晚秋可开始修剪",
+    "pruning_method": "全面清理枯枝落叶；乔木去除密生枝；花灌木花后修剪；草坪打孔通气",
+    "fertilization_schedule": "9-10月施秋肥：减少氮肥，增施磷钾肥和有机肥增强越冬能力；乔木每株施有机肥2-5kg",
+    "watering_frequency": "减少浇水频次至每周1次；促进枝条木质化",
+    "winter_protection": "10月中下旬开始为不耐寒植物做越冬准备；树干涂白"
+  },
+  {
+    "id": "standard_015",
+    "category": "maintenance_standard",
+    "name": "冬季综合养护标准（12-2月）",
+    "applicable_species": "所有园林植物",
+    "pruning_cycle": "全面冬季修剪：落叶乔木重剪整形；常绿乔木疏剪",
+    "pruning_method": "落叶乔木可重剪塑造树形；常绿树仅轻疏；绿篱减少修剪频率；草坪保持在5-7cm高度越冬",
+    "fertilization_schedule": "12月施越冬肥（有机肥为主）；休眠期不追施速效化肥",
+    "watering_frequency": "减少浇水至每月1-2次；选择温暖晴天中午浇水",
+    "winter_protection": "不耐寒植物搭设防风障；根际覆盖草帘或土堆保温；寒潮预警前浇透防冻水"
+  },
+  {
+    "id": "standard_016",
+    "category": "maintenance_standard",
+    "name": "病虫害综合防治标准",
+    "applicable_species": "所有园林植物",
+    "pruning_cycle": "结合修剪清除病虫枝、枯枝，减少病虫源",
+    "pruning_method": "剪除并销毁病虫枝叶；伤口涂保护剂；修剪工具定期消毒",
+    "fertilization_schedule": "合理施肥增强树势提高抗病虫能力；避免偏施氮肥致枝叶过嫩易感病虫",
+    "watering_frequency": "合理浇水避免过干过湿；傍晚浇水易诱发灰霉病等病害，改为清晨浇水",
+    "winter_protection": "冬季清园：清除枯枝落叶及杂草；树干涂白（生石灰5kg+硫磺粉0.5kg+食盐0.25kg+水20kg）；翻耕土壤灭越冬虫蛹"
+  },
+  {
+    "id": "standard_017",
+    "category": "maintenance_standard",
+    "name": "行道树专项养护标准",
+    "applicable_species": "香樟、榕树、白兰、小叶榄仁、秋枫等行道树",
+    "pruning_cycle": "每年2次：春季萌芽前整修+台风季前（6月）疏剪防台风",
+    "pruning_method": "保持主干通直，枝下高≥2.5m（机动车道）或≥2.2m（人行道）；树冠与架空线保持安全距离≥1.5m；不得截顶",
+    "fertilization_schedule": "春施复合肥0.5-1kg/株+秋施有机肥；采用放射沟施或穴施",
+    "watering_frequency": "生长期每10-15天1次；干旱季节每周1次；大树可减少频次",
+    "winter_protection": "树池覆盖树篦子或有机覆盖物5-8cm厚；每年树干涂白1次"
+  },
+  {
+    "id": "standard_018",
+    "category": "maintenance_standard",
+    "name": "观叶及彩叶植物养护标准",
+    "applicable_species": "红车木、黄金香柳、银叶金合欢、变叶木等",
+    "pruning_cycle": "生长期修剪2-4次，刺激萌发彩色新叶",
+    "pruning_method": "及时修剪老叶促发新叶以达到最佳观赏效果；每次修剪量约新生长量的1/3",
+    "fertilization_schedule": "修剪后立即追施复合肥以促新叶萌发；生长期每月施含微量元素的复合肥1次；适当控磷以利彩叶表现",
+    "watering_frequency": "保持土壤适度湿润；彩叶表现期不可过旱或过涝",
+    "winter_protection": "深圳不需特殊防寒；冬季减少施肥和浇水"
+  },
+  {
+    "id": "standard_019",
+    "category": "maintenance_standard",
+    "name": "节日及重要活动期间景观保障标准",
+    "applicable_species": "重点区域所有园林植物",
+    "pruning_cycle": "重大节日前7-14天完成全面修剪整形",
+    "pruning_method": "精细修剪保持景观整齐美观；清理枯枝落叶和杂草；时花更换和花坛整理",
+    "fertilization_schedule": "节前15-20天追施磷钾肥促花；时花种植时施基肥",
+    "watering_frequency": "节前3-5天浇透水保持植物精神饱满；节日期间保持土壤湿润",
+    "winter_protection": "春节期间注意寒潮预警提前防护；春节花卉适当防寒或选用耐寒品种"
+  },
+  {
+    "id": "standard_020",
+    "category": "maintenance_standard",
+    "name": "有机覆盖与土壤改良标准",
+    "applicable_species": "所有园林植物",
+    "pruning_cycle": "结合修剪将粉碎的枝叶作为覆盖物原料利用",
+    "pruning_method": "将修剪后的枝叶经粉碎处理后可作有机覆盖物（需腐熟或堆置处理）",
+    "fertilization_schedule": "每年至少施有机肥2次（春、秋）改良土壤结构；结合中耕松土混入有机肥和土壤改良剂；对酸性板结土壤施用石灰调节pH至6.0-7.0",
+    "watering_frequency": "覆盖后土壤保水性增强，浇水频次可适当减少；覆盖物保持5-10cm厚度",
+    "winter_protection": "冬季增加根际覆盖物厚度至10-15cm保温；覆盖物距树干基部留5-10cm空隙防腐烂"
+  }
+]
